@@ -4,7 +4,7 @@
 
 - The `Papers` folder contains the six recent research PDFs plus the five newly supplied historical source files: four PDFs and the original 911.gov link text file. The supervisor form and sample thesis are excluded. All 11 uploaded files are unchanged; hashes, file types, and PDF page counts are in `paper-manifest.json`.
 - The original six papers were added to `main` in `d9017bb16da2aa3fc438e0753af76c0e42c17d1d`. Only the five new historical source files were added to `main` in `2a14d08c03a8aabde28d81a16ec5d02c7b265d98`. No revised thesis files are included in either papers-only update.
-- The revised thesis and source are provided on `review/thesis-ieee-20261117` for review and file access. These changes have not been merged into `main`.
+- The approved revised thesis and editable source are published on `main`. The `review/thesis-ieee-20261117` branch retains the review history.
 - The reference list is generated from `references.bib` using the standard BibTeX `ieeetr` style. The `cite` package supplies IEEE numeric citation formatting; `notoccite` keeps the front-matter figure/table lists from changing first-citation numbering in the body.
 - The sample thesis was used to guide formal explanatory paragraphs, measurable objectives, figure explanations, and comparisons. Its topic, findings, and references were not imported.
 
