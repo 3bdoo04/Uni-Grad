@@ -17,6 +17,8 @@
 - Each of six paper sections has Methodology, Results, Strengths, Limitations, and Summary. The Chapter 2 summary connects gaps to design choices and planned checks.
 - Five original architecture figures are reproduced with source attribution and black frames. The Shekhar paper contains result figures, not a system architecture; its results are shown as a denominator-preserving table.
 - Section 3.1 specifies functional and non-functional requirements, acceptance checks, human review, privacy, and failure handling. Section 3.1.1 uses the repository block diagram and two-part flowchart. All other former Chapter 3 sections are removed.
+- Chapter 4 now gives an eight-week remaining Grad I plan from 23 November 2026 to the user-confirmed deadline of 17 January 2027. It includes a vector Gantt chart, 11 task packages, seven milestones, durations, dependencies, proposed team ownership, and a 14–16 January correction buffer. Internal dates and leads are proposed; the final deadline is confirmed.
+- Chapter 5 now gives the initial conclusion: problem, principal research findings, identified gap, anticipated contribution, proposed direction, and next design steps. It does not invent implementation or evaluation results.
 - Contents, figure/table lists, abbreviations, references, and cross-references are regenerated from actual content. The old template directions and phantom later chapters are removed from these lists.
 
 ## Source evidence used
@@ -42,14 +44,15 @@ Page numbers below are physical pages in the uploaded PDFs, not thesis page numb
 ## Items remaining outside this rewrite
 
 - The older supervisor comments referred to a submission ending at Chapter 2. The current user request expressly includes Chapter 3, so the revised contents include its requested requirements and diagrams.
-- The later midterm rubric also expects a Grad I time plan and an initial conclusion. Those chapters were not supplied as completed content in the old PDF and were not requested in this rewrite. They still need preparation; this revision does not claim that the entire midterm submission is complete.
+- The time plan and initial conclusion required by the later midterm rubric are now included as Chapters 4 and 5. Other previously flagged submission items remain: completing the Arabic cover, checking the full bilingual-front-matter requirement, and strengthening authoritative problem statistics and named professional-guideline references. This update does not claim that every remaining rubric item has been completed.
 - The approved English/Arabic abstracts, English cover, acknowledgment, and existing Arabic back cover are preserved. The Arabic back cover still has the original student/title/supervisor placeholders and reversed academic-year text; completing it requires a separate cover-page edit. The body no longer contains template instructions.
 - Existing contact statements in Section 1.6 remain reported outreach, not confirmed partnerships.
+- The presentation's older indicative 12-week implementation timetable is not changed in this request. Chapter 4 is the remaining Grad I design/submission plan for the confirmed 17 January 2027 deadline; it retains the proposed division of leads but uses the new calendar.
 - Hospital authorization, an available test telephone route, reviewed medical guidance, reviewed reference labels, and implementation/evaluation remain prerequisites. No clinical effectiveness, real ambulance dispatch, or regulatory compliance is claimed.
 
 ## Editable source
 
-`main.tex`, `chapter1.tex`, `chapter2.tex`, `chapter2b.tex`, `chapter3.tex`, `references.bib`, `ieeetr.bst`, `.latexmkrc`, and `assets/` form the editable source. Build in this directory with:
+`main.tex`, `chapter1.tex`, `chapter2.tex`, `chapter2b.tex`, `chapter3.tex`, `chapter4.tex`, `chapter5.tex`, `references.bib`, `ieeetr.bst`, `.latexmkrc`, and `assets/` form the editable source. `make_time_plan.py` and the time-plan JSON files reproduce the Gantt chart and record the confirmed deadline and proposed task assignments. Build in this directory with:
 
 ```sh
 latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=build main.tex
