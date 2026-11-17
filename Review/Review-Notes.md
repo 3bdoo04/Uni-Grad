@@ -49,6 +49,8 @@ The midterm rubric allows justified exceptions to its recent-publication guideli
 
 ## Industrial standards and midterm Criterion 13
 
+The latest edit follows the supplied paragraph-style examples: each standards section now has four short paragraphs, with no internal subheadings or mapping table. Section 2.8 is approximately 245 words and Section 3.1.1 approximately 263 words, about 60% shorter in total. IEEE citations and the relevant project-specific scope distinctions are retained.
+
 - TLS 1.3 / RFC 8446: the published metadata and security objective were read from the IETF-tools maintained BibXML archive. Configuration and certificate checks are supported by the full OWASP ASVS 5.0.0 standard. An unpublished TLS revision was not used as the normative reference.
 - OWASP ASVS 5.0.0 (May 2025): the official PDF and requirement CSV were read from the OWASP release tag. Selected controls cover V8 authorization, V12 transport, V14 data protection, and V16 security logging; no entire ASVS level is claimed.
 - HL7 FHIR R5, version 5.0.0: the overview and conformance source pages were read from the official HL7 release tag. The thesis identifies it as conditional on a later hospital interface agreement, while the present test receiver uses its own documented incident schema.
