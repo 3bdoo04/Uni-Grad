@@ -2,8 +2,8 @@
 
 ## Scope and publication
 
-- The `Papers` folder contains exactly the six uploaded research PDFs. The supervisor form and sample thesis are excluded. The files are unchanged; hashes and page counts are in `paper-manifest.json`.
-- Papers-only commit pushed to `main`: `d9017bb16da2aa3fc438e0753af76c0e42c17d1d`.
+- The `Papers` folder contains the six recent research PDFs plus the five newly supplied historical source files: four PDFs and the original 911.gov link text file. The supervisor form and sample thesis are excluded. All 11 uploaded files are unchanged; hashes, file types, and PDF page counts are in `paper-manifest.json`.
+- The original six papers were added to `main` in `d9017bb16da2aa3fc438e0753af76c0e42c17d1d`. Only the five new historical source files were added to `main` in `2a14d08c03a8aabde28d81a16ec5d02c7b265d98`. No revised thesis files are included in either papers-only update.
 - The revised thesis and source are provided on `review/thesis-ieee-20261117` for review and file access. These changes have not been merged into `main`.
 - The reference list is generated from `references.bib` using the standard BibTeX `ieeetr` style. The `cite` package supplies IEEE numeric citation formatting; `notoccite` keeps the front-matter figure/table lists from changing first-citation numbering in the body.
 - The sample thesis was used to guide formal explanatory paragraphs, measurable objectives, figure explanations, and comparisons. Its topic, findings, and references were not imported.
@@ -13,7 +13,7 @@
 - Sections 1.1 and 1.2 distinguish background from the specific problem. Quantitative statements come from the supplied original studies, rather than unattributed population statistics.
 - Table 1.1 compares voice communication, clinical decision, caller location, and dispatch support using common criteria. It distinguishes untested features from demonstrated capabilities.
 - Sections 1.4 and 1.5 have no citations. Objectives identify measurements and tests; contributions are anticipated, not achieved results.
-- Section 2.1 explains the progression from protocol-based calls through classifiers and language models to coordinated agents. It does not repeat the Chapter 1 comparison table.
+- Section 2.1 restores the historical account using the five supplied sources: the 1966 emergency-care report, the national emergency-number history, structured questioning and pre-arrival instructions in the 1970s, the evaluated 1985 priority-dispatch system, computerized protocols and quality review, and the 2013 dispatch-research synthesis. It then connects those developments to the six recent studies and the proposed telephone prototype. It does not repeat the Chapter 1 comparison table.
 - Each of six paper sections has Methodology, Results, Strengths, Limitations, and Summary. The Chapter 2 summary connects gaps to design choices and planned checks.
 - Five original architecture figures are reproduced with source attribution and black frames. The Shekhar paper contains result figures, not a system architecture; its results are shown as a denominator-preserving table.
 - The Chapter 3 introduction explains the development phases and scope. Section 3.1 identifies stakeholders, equipment, software, and requirement sources, then presents functional and non-functional requirements as bullet lists with bold descriptive labels. Proposed evaluation checks, human review, privacy, and failure handling are retained in the bullets and explanatory prose. Section 3.1.1 uses the repository block diagram and two-part flowchart. No additional numbered Chapter 3 sections are added.
@@ -34,12 +34,24 @@ Page numbers below are physical pages in the uploaded PDFs, not thesis page numb
 | DispatchMAS | pp. 4–7: 50 adult records, 100 synthetic calls, Figure 2 and mocked resources; pp. 9–12: expert evaluation; pp. 14–17: timing and limitations | 94% mocked auxiliary contact, 97% callback advice, 91% advice where considered necessary. Fixed “123 Main Street.” English-only communication experiments. Pacing is calculated from utterances, not measured computation/audio delay. |
 | TriAgent | pp. 4–10: 1,000-case cohort, Figure 2, 49,000-note retrieval and trained classifier; pp. 11–18: results, comparisons, timing and limitations | 65.7% overall accuracy and 85.0% critical recall. A classifier trained on 415,423 encounters uses structured inputs. The comparison cannot isolate agent count. Median paths are 64 s and 186 s. The reused 20-case clinician review is formative, not an independent trial. |
 
+## Historical-source evidence and recency
+
+| Source | Evidence checked | Use in Section 2.1 |
+|---|---|---|
+| National Research Council, 1966 | PDF pp. 19–20 (printed pp. 16–17), and PDF pp. 38–39 (printed pp. 35–36) | Fragmented radio/telephone links, centralized coordination, medical supervision, and a proposed common telephone number. The report’s old injury totals are not presented as current statistics. |
+| National 911 Program, “History of 911” | Supplied link file and milestones/reference already present in the earlier thesis; direct website verification is pending activation of the environment domain grant. | The 1968 first call and 2004 Next Generation 911 initiative. The access date of 1 November 2026 already listed in the earlier bibliography is retained pending direct verification; no new site access is claimed. |
+| Zachariah and Pepe, 1995 | PDF pp. 1–3 | Mid-1970s pre-arrival instructions, 1977 protocol development/1978 introduction, 1979 training, 1986 computerized protocols, 1989 quality tracking, and subsequent standards. The text uses “mid-1970s” because this account says approximately 1975 while Gardett et al. identify 1976 for the early Phoenix instruction. |
+| Slovis et al., 1985 | PDF pp. 2–6, especially Tables 1 and 5 and the discussion | 36 initial complaint categories; historical before/after mean urgent-case response 14.2 to 10.4 minutes; 1,694 complete reports, 46% agreement, 47% higher priority, 7% lower; 0.3% is only the lowest-to-highest mismatch. Dispatch plus travel time is distinguished from spoken-reply time. |
+| Gardett et al., 2013 | PDF pp. 1–3 and 8–9 | 149 publications (114 original studies/35 concept papers), four research themes, computer-aided dispatch, inconsistent timing definitions, and limits of comparing telephone assessments with later diagnoses. |
+
+The midterm rubric allows justified exceptions to its recent-publication guideline. The four older works are retained for the historical milestones and foundational dispatch methods they document, not as current performance estimates. All six contemporary detailed reviews remain from 2025–2026. With ten dated publications plus the government webpage, the unadjusted recent-publication fraction is six of ten; it is not described as meeting 80% without the stated historical exceptions.
+
 ## Figure handling
 
 - Architecture figures are clipped from the supplied papers, retaining the original content. The added outer frame is black; no study architecture is invented.
 - The project block diagram comes from `Thesis Diagrams/Proposed_Project_Block_Diagram.pdf`.
 - The two project flowchart parts come from `Thesis Diagrams/Project_Flowchart.pdf`. The thesis copy excludes presentation headers/footers and changes only the first call-entry label from browser voice to telephone entry. The thesis captions identify the adaptation. Repository source diagrams are unchanged.
-- Every thesis page is portrait with zero page rotation. Existing project diagrams are retained as scalable vector figures within black frames and fitted to portrait pages. The Gantt chart is drawn specifically for portrait presentation.
+- Every thesis page is portrait with zero page rotation. Existing project diagrams are retained as scalable vector figures within black frames and fitted to portrait pages. The Gantt chart is drawn specifically for portrait presentation. Its phase bars and matching legend now use vivid blue, orange, purple, and green; the correction buffer is yellow. Dates, tasks, ownership, dependencies, and milestones are unchanged.
 
 ## Items remaining outside this rewrite
 
