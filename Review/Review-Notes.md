@@ -16,9 +16,9 @@
 - Section 2.1 explains the progression from protocol-based calls through classifiers and language models to coordinated agents. It does not repeat the Chapter 1 comparison table.
 - Each of six paper sections has Methodology, Results, Strengths, Limitations, and Summary. The Chapter 2 summary connects gaps to design choices and planned checks.
 - Five original architecture figures are reproduced with source attribution and black frames. The Shekhar paper contains result figures, not a system architecture; its results are shown as a denominator-preserving table.
-- Section 3.1 specifies functional and non-functional requirements, acceptance checks, human review, privacy, and failure handling. Section 3.1.1 uses the repository block diagram and two-part flowchart. All other former Chapter 3 sections are removed.
-- Chapter 4 now gives an eight-week remaining Grad I plan from 23 November 2026 to the user-confirmed deadline of 17 January 2027. It includes a vector Gantt chart, 11 task packages, seven milestones, durations, dependencies, proposed team ownership, and a 14–16 January correction buffer. Internal dates and leads are proposed; the final deadline is confirmed.
-- Chapter 5 now gives the initial conclusion: problem, principal research findings, identified gap, anticipated contribution, proposed direction, and next design steps. It does not invent implementation or evaluation results.
+- The Chapter 3 introduction explains the development phases and scope. Section 3.1 identifies stakeholders, equipment, software, and requirement sources, then presents functional and non-functional requirements as bullet lists with bold descriptive labels. Proposed evaluation checks, human review, privacy, and failure handling are retained in the bullets and explanatory prose. Section 3.1.1 uses the repository block diagram and two-part flowchart. No additional numbered Chapter 3 sections are added.
+- Chapter 4 contains only a portrait vector Gantt chart and its caption. Eleven tasks appear by plain names, without T/M/W numbering. The chart includes phases, calendar weeks, durations, dependency arrows, completion-milestone diamonds, proposed leads, and the 14–16 January correction buffer. It runs from 23 November 2026 to the user-confirmed deadline of 17 January 2027. Internal dates and leads are proposed; the final deadline is confirmed. Internal JSON identifiers remain solely for dependency validation and are not printed in the thesis.
+- Chapter 5 contains exactly three paragraphs, without section headings: progress so far, the proposed approach and anticipated contribution, and next steps. The final paragraph covers the post-midterm detailed diagrams, interface wireframes, tool and component selection, algorithms, relevant connection/circuit diagrams, cost analysis, implementation, and evaluation. No empty future sections or invented results are added.
 - Contents, figure/table lists, abbreviations, references, and cross-references are regenerated from actual content. The old template directions and phantom later chapters are removed from these lists.
 
 ## Source evidence used
@@ -39,7 +39,7 @@ Page numbers below are physical pages in the uploaded PDFs, not thesis page numb
 - Architecture figures are clipped from the supplied papers, retaining the original content. The added outer frame is black; no study architecture is invented.
 - The project block diagram comes from `Thesis Diagrams/Proposed_Project_Block_Diagram.pdf`.
 - The two project flowchart parts come from `Thesis Diagrams/Project_Flowchart.pdf`. The thesis copy excludes presentation headers/footers and changes only the first call-entry label from browser voice to telephone entry. The thesis captions identify the adaptation. Repository source diagrams are unchanged.
-- Project diagrams use landscape pages to make labels readable.
+- Every thesis page is portrait with zero page rotation. Existing project diagrams are retained as scalable vector figures within black frames and fitted to portrait pages. The Gantt chart is drawn specifically for portrait presentation.
 
 ## Items remaining outside this rewrite
 
@@ -52,7 +52,7 @@ Page numbers below are physical pages in the uploaded PDFs, not thesis page numb
 
 ## Editable source
 
-`main.tex`, `chapter1.tex`, `chapter2.tex`, `chapter2b.tex`, `chapter3.tex`, `chapter4.tex`, `chapter5.tex`, `references.bib`, `ieeetr.bst`, `.latexmkrc`, and `assets/` form the editable source. `make_time_plan.py` and the time-plan JSON files reproduce the Gantt chart and record the confirmed deadline and proposed task assignments. Build in this directory with:
+`main.tex`, `chapter1.tex`, `chapter2.tex`, `chapter2b.tex`, `chapter3.tex`, `chapter4.tex`, `chapter5.tex`, `references.bib`, `ieeetr.bst`, `.latexmkrc`, and `assets/` form the editable source. `make_time_plan.py` and the time-plan JSON files reproduce the portrait Gantt chart and record the confirmed deadline and proposed task assignments. `validate_revision.py` checks page orientation, the requirement-list format, chart-only Chapter 4, the three-paragraph conclusion, retained approved pages, references, links, and source-paper integrity. Build in this directory with:
 
 ```sh
 latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=build main.tex
