@@ -4,7 +4,7 @@
 
 - The `Papers` folder contains the six recent research PDFs plus the five newly supplied historical source files: four PDFs and the original 911.gov link text file. The supervisor form and sample thesis are excluded. All 11 uploaded files are unchanged; hashes, file types, and PDF page counts are in `paper-manifest.json`.
 - The original six papers were added to `main` in `d9017bb16da2aa3fc438e0753af76c0e42c17d1d`. Only the five new historical source files were added to `main` in `2a14d08c03a8aabde28d81a16ec5d02c7b265d98`. No revised thesis files are included in either papers-only update.
-- The previous approved thesis is on `main` at `6c12be9f04071a8181cddee7b55b97e63afa8126`. The user has authorized this revision for publication: remove citations from Sections 2.8 and 3.1.1 and remove the five standards/guidance entries from the bibliography. Standards names, versions, explanations, and the design table remain.
+- The previous approved thesis is on `main` at `a9259c4f172c7f8565bd8a67065adfdb412c7948`. The user has authorized this revision for publication: change the second column heading in the industrial standards table from “Standard / framework” to “Standard”. The standards sections remain without citation numbers or bibliography entries.
 - The reference list is generated from `references.bib` using the standard BibTeX `ieeetr` style. The `cite` package supplies IEEE numeric citation formatting; `notoccite` keeps the front-matter figure/table lists from changing first-citation numbering in the body.
 - The sample thesis was used to guide formal explanatory paragraphs, measurable objectives, figure explanations, and comparisons. Its topic, findings, and references were not imported.
 
@@ -49,7 +49,7 @@ The midterm rubric allows justified exceptions to its recent-publication guideli
 
 ## Industrial standards and midterm Criterion 13
 
-The latest edit follows the user's updated format: Section 2.8 has five brief bullet points; Section 3.1.1 has a portrait table with Component, Standard / framework, Type, and Use in the proposed system columns. The same five entries appear in both places without citation numbers or bibliography entries, as requested. The table uses black horizontal and vertical rules. The earlier transport-security, application-verification, conditional hospital-interchange, and human-training selection has been replaced; the corresponding unused bibliography and abbreviation entries have been removed. Transport Layer Security remains an explicit requirement and is expanded at its new first use.
+The latest edit follows the user's updated format: Section 2.8 has five brief bullet points; Section 3.1.1 has a portrait table with Component, Standard, Type, and Use in the proposed system columns. The same five entries appear in both places without citation numbers or bibliography entries, as requested. The table uses black horizontal and vertical rules. The earlier transport-security, application-verification, conditional hospital-interchange, and human-training selection has been replaced; the corresponding unused bibliography and abbreviation entries have been removed. Transport Layer Security remains an explicit requirement and is expanded at its new first use.
 
 Selection is based on the full nine-page uploaded `Graduation_Project_Standards_and_Resources.pdf`, not an assumed catalog. The guide identifies common references and permits selection according to applicability:
 
