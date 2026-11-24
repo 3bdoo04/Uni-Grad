@@ -1,7 +1,7 @@
 # Midterm rehearsal guide
 
 Prepared narrative: **12:45**. Reserved Q&A: **2:15**. Total plan: **15:00**.
-Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–16; hidden backups 17–20.
+Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–16; separate appendix slides 1–4.
 
 | Slide | Topic | Suggested speaker | Window |
 |---|---|---|---|
@@ -11,12 +11,12 @@ Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–16; hidde
 | 4 | Industrial partner | Omar | 02:25–02:50 |
 | 5 | DispatchMAS | Omar | 02:50–03:50 |
 | 6 | TriAgent | Omar | 03:50–04:55 |
-| 7 | Block diagram | Abdelrahman | 04:55–06:25 |
-| 8 | Call flow | Abdelrahman | 06:25–07:25 |
-| 9 | Specifications | Abdelrahman | 07:25–08:05 |
-| 10 | Contributions | Abdelrahman | 08:05–08:50 |
-| 11 | Testing | Abdelrahman | 08:50–09:55 |
-| 12 | Cost planning | Abdelrahman | 09:55–10:25 |
+| 7 | Block diagram | Abdelrahman | 04:55–06:15 |
+| 8 | Flowchart | Abdelrahman | 06:15–07:15 |
+| 9 | Specifications | Abdelrahman | 07:15–07:50 |
+| 10 | Contributions | Abdelrahman | 07:50–08:35 |
+| 11 | Testing | Abdelrahman | 08:35–09:40 |
+| 12 | Cost estimate | Abdelrahman | 09:40–10:25 |
 | 13 | Timetable | Abdelrahman | 10:25–11:25 |
 | 14 | Challenges | Omar | 11:25–12:10 |
 | 15 | Conclusion | Omar | 12:10–12:45 |
@@ -78,17 +78,17 @@ Transition: These studies motivate focused conversation, selective tasks, and a 
 
 ### 7. Proposed system — block diagram
 
-The caller enters through the hospital test telephone connection and speech services. Agent 1 is the only agent that speaks. It gathers facts and corrections. Agent 2 uses the current facts to recommend preliminary urgency and retrieve reviewed first-aid material. Agent 3 confirms location, checks simulated vehicle availability, estimated travel time and equipment, and prepares the report. The Python controller is not a fourth AI agent. It decides which task needs to run, validates results, and maintains one incident record. A result based on an old address must not overwrite a correction. The controller does not invoke every agent after every utterance. Staff can inspect partial information, take over the call, and approve or reject the request. Only an approved request reaches the test receiver. The receipt is logged separately from simulated assignment or departure. The diagram is simplified for the slide; the thesis contains the fuller block diagram and flowchart.
+The thick voice arrow connects the caller and speech tools to Agent 1, the only speaking agent. Agent 2 recommends preliminary urgency and retrieves reviewed first aid. Agent 3 confirms location, checks simulated vehicle availability, travel time and equipment, and prepares the report. The three vertical double-headed arrows carry tasks and results between the agents and the Python controller. That controller is ordinary software. It maintains one record, rejects outdated results, and runs only the work affected by a change. Along the bottom, a reviewable incident reaches staff approval before transmission. The upward receipt arrow records acceptance at the test receiver. Staff can take over at any stage; receipt is separate from ambulance assignment or departure.
 
-Delivery cue: Trace the caller-to-Agent-1 arrow, then each role, then the controller bar, then the bottom approval path. Do not present the three agents as a forced sequential chain.
+Delivery cue: Trace the thick voice arrow, then the three task/result arrows, then the approval and receipt paths. The agents are not a forced sequential chain.
 
 Transition: The flowchart shows what happens when information is missing or a delivery fails.
 
-### 8. Proposed system — call flow
+### 8. Proposed system — flowchart
 
-The main path is collection, preliminary assessment, location and resource confirmation, and staff review. If staff approve, the controller sends the request to the test receiver. Failed delivery uses a proposed maximum of three attempts, with the same request identifier so that a retry cannot become a second order. A missing receipt produces a failed or unconfirmed state and an alert to staff. It is not silently treated as success. If the caller corrects a symptom or location, or staff reject the report, we update the incident and repeat only the affected task. Human takeover remains available throughout the call.
+The rounded symbol starts the call. The process boxes collect facts, assess preliminary urgency and guidance, and confirm location and simulated resources. The first diamond asks whether staff approve. No returns to clarification or staff takeover; Yes sends the approved request. Delivery can use up to three attempts with the same request ID. The second diamond checks for a receipt. Yes records the receipt; No ends in an alert with unconfirmed delivery. A receipt confirms receiver acceptance, not ambulance departure.
 
-Delivery cue: Follow the top row left-to-right, then the lower row right-to-left. Point to the correction bar last.
+Delivery cue: Follow the start/process symbols, explain the staff-approval diamond, then the receipt diamond. Trace the No loops and failure end explicitly.
 
 Transition: These steps give us measurable system specifications.
 
@@ -112,23 +112,23 @@ Transition: We will test that contribution through the following measurements.
 
 Testing starts with individual components, then connected services, then full simulated emergency calls. Annotated scenarios provide the facts we expect to collect. A qualified reviewer must agree urgency labels and guidance before testing. We will measure information errors, urgency errors, location confirmation, meaningful-reply delay, notification outcomes, and cost. We will separate transcript interpretation from end-to-end speech tests, so we can identify whether an error came from recognition or reasoning. Tests include noise, code-switching, corrected addresses, unavailable vehicles, call interruptions, and delayed or duplicate receipts. A failure is an outcome to record and explain. No clinical effectiveness or real ambulance deployment is established by these prototype tests.
 
-Delivery cue: Describe the test strategy first, then highlight two measures rather than reading six cards.
+Delivery cue: Explain the three table columns. Give one unit-test example and one failure/recovery example, then identify the full system test.
 
-Transition: Cost is part of the evaluation, but service prices have not yet been selected.
+Transition: The following table estimates a small test budget using checked unit prices and explicit usage assumptions.
 
-### 12. Cost analysis — planned method
+### 12. Cost analysis — estimated test budget
 
-Detailed costing follows service selection. We will log telephone time, speech processing, model usage, mapping, storage and notification attempts, including failures. This supports a cost per completed or failed call. No service rates or prototype total are agreed yet, and the reviewed papers do not provide directly comparable per-call costs.
+This estimate uses official prices checked on 24 November for 100 five-minute test calls. The model-token allowance covers all three roles. We budget live transcription and both the telephone and SIP connection legs. Speech generation and map usage fit within the stated monthly free allowances, assuming those allowances are unused. The total is 17 dollars and 78 cents before tax. Existing equipment and internet are assumed. This is a US test route; an Egyptian hospital line needs its own quote. Providers are costing candidates, and actual usage will be measured.
 
-Delivery cue: Explain the cost drivers. Do not invent dollar values to fill the template.
+Delivery cue: State the test scenario, total and free-allowance assumption. Explain one row; distinguish a test-route estimate from an Egypt quote.
 
 Transition: The remaining design work is scheduled against the confirmed submission date.
 
-### 13. Timetable — remaining Grad I work
+### 13. Timetable — responsibilities
 
-The thesis plan runs from 23 November to the confirmed 17 January Grad I deadline. These are proposed dates and leads, not claims that every task has been completed. The review and preliminary design already exist in the thesis. Omar leads guidance and bilingual scenarios, then controller interfaces and location rules. Abdelrahman leads telephone feasibility, dashboard and receiver design, and privacy and costing. Both contribute to integration review and submission. The chart groups parallel tasks for readability; the thesis retains all eleven tasks and their dependencies. Report work continues throughout, with a 14–16 January correction buffer. Omar will finish with the main challenges and next steps.
+The dates retain the thesis schedule through the confirmed 17 January deadline. The proposed presentation allocation gives each deliverable one accountable lead. Omar owns scope, guidance and bilingual cases, controller interfaces, location rules, evaluation scenarios and the final report. Abdelrahman owns telephone and speech, the dashboard and receiver, privacy and costing, integration review and the decision log. This is six deliverables for Omar and five for Abdelrahman; peer review still happens across the team. The parallel rows show work that can happen together. Dates and owners are proposed, with a 14–16 January correction buffer. Omar will finish with the main challenges and conclusion.
 
-Delivery cue: Point to the deadline, two parallel work periods, and the final buffer. Handoff back to Omar.
+Delivery cue: Point to the Lead column and two parallel task pairs. Each row has one accountable owner. Handoff back to Omar after the confirmed deadline.
 
 Transition: The plan also depends on resolving several technical and clinical constraints.
 
@@ -148,9 +148,9 @@ Delivery cue: Return to the opening purpose. Stop the prepared narrative at or b
 
 Transition: Questions and discussion.
 
-### 16. Questions & discussion
+### 16. Thank you
 
-This slide starts the question period. The planned talk ends at 12:45, leaving 2:15 inside the 15-minute maximum. Keep answers focused and use a backup slide only when it helps. If questions are handled separately by the committee, the prepared talk still remains below the limit.
+This slide starts the question period. The planned talk ends at 12:45, leaving 2:15 inside the 15-minute maximum. Keep answers focused and open the separate appendix only when it helps. If questions are handled separately by the committee, the prepared talk still remains below the limit.
 
 Delivery cue: Listen fully. Let the presenter responsible for a topic answer first, then add only missing information. State uncertainty honestly.
 
@@ -190,9 +190,9 @@ A separate implemented single-agent baseline is not in the current committed sco
 
 The thesis reports outreach, not a confirmed partnership. Requirements input, a test telephone route, and qualified medical review remain prerequisites.
 
-### Why is there no numerical budget or measured system result?
+### What does the $17.78 estimate cover?
 
-The thesis documents preliminary design. Detailed costing follows tool selection. Implementation, clinical-label review, and simulation-based evaluation are next work; values should not be invented.
+A month with 100 five-minute US test calls, model usage across three roles, live transcription, speech generation, both telephone/gateway legs, geocoding and route-matrix usage. Official prices were checked on 24 November 2026. The total assumes unused Google free caps and existing equipment/internet; without those caps, the same quantities at first paid tiers are about $26.78 before tax. An Egyptian hospital route needs a separate quote.
 
 ### Have you published either reviewed paper?
 

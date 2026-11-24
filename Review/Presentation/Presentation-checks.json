@@ -3,9 +3,9 @@
   "template_sha256": "623b21fe5222f3b757ae2829fe25b89a1f75428b9f928ef5b852cf9cf56d7f5f",
   "thesis_main_commit": "798e1611042be81b086a27a02259942b3f9d89ab",
   "thesis_pages": 44,
-  "slides": 20,
   "main_slides_including_qa": 16,
-  "hidden_backup_slides": 4,
+  "appendix_slides_in_separate_file": 4,
+  "hidden_slides": 0,
   "narrative_seconds": 765,
   "reserved_qa_seconds": 135,
   "maximum_planned_seconds": 900,
@@ -31,6 +31,74 @@
       6
     ]
   ],
+  "task_leads": [
+    {
+      "task": "Scope and requirements",
+      "lead": "Omar",
+      "start_week": 0,
+      "weeks": 1
+    },
+    {
+      "task": "Guidance and bilingual cases",
+      "lead": "Omar",
+      "start_week": 1,
+      "weeks": 2
+    },
+    {
+      "task": "Telephone and speech",
+      "lead": "Abdelrahman",
+      "start_week": 1,
+      "weeks": 2
+    },
+    {
+      "task": "Controller and agent interfaces",
+      "lead": "Omar",
+      "start_week": 3,
+      "weeks": 1
+    },
+    {
+      "task": "Location and ambulance rules",
+      "lead": "Omar",
+      "start_week": 4,
+      "weeks": 1
+    },
+    {
+      "task": "Dashboard and test receiver",
+      "lead": "Abdelrahman",
+      "start_week": 4,
+      "weeks": 1
+    },
+    {
+      "task": "Privacy, safety and cost",
+      "lead": "Abdelrahman",
+      "start_week": 5,
+      "weeks": 1
+    },
+    {
+      "task": "Evaluation and test scenarios",
+      "lead": "Omar",
+      "start_week": 5,
+      "weeks": 1
+    },
+    {
+      "task": "Integrated design review",
+      "lead": "Abdelrahman",
+      "start_week": 6,
+      "weeks": 1
+    },
+    {
+      "task": "Final report and submission",
+      "lead": "Omar",
+      "start_week": 7,
+      "weeks": 1
+    },
+    {
+      "task": "Report and decision log",
+      "lead": "Abdelrahman",
+      "start_week": 0,
+      "weeks": 8
+    }
+  ],
   "text_fit_issues": [],
   "original_template_masters_layouts_themes_preserved": true,
   "logo_order": [
@@ -43,28 +111,9 @@
     "DispatchMAS": "2026 (year shown in supplied paper; exact day/month not printed)",
     "TriAgent": "18 June 2026"
   },
-  "status": "Validated presentation; user approved publication on main",
-  "cover_redesigned": true,
-  "unchanged_slides_verified": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-  ],
-  "cover_scope_check": "Only slide 1 changed; other slide XML, notes, text and pixels unchanged"
+  "cost_scenario_usd": 17.78,
+  "cost_arithmetic_verified": true,
+  "current_provider_rates_verified": true,
+  "cost_status": "Official unit prices verified 24 November 2026; usage and provider choices remain estimates",
+  "status": "User approved publication of this presentation revision on main"
 }

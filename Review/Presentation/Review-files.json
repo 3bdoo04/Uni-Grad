@@ -1,0 +1,62 @@
+{
+  "Uni-Grad - Midterm Presentation.pptx": {
+    "bytes": 3245570,
+    "sha256": "64e647cce82ffa6084376e5023b5ac08ea3f6a12be49d3da83fdeaf348f4d93c"
+  },
+  "Uni-Grad - Midterm Presentation.pdf": {
+    "bytes": 598819,
+    "sha256": "140cf3f0467f15e8105b3619207a51b668faf88fe5894c54698c960428db7f20"
+  },
+  "Uni-Grad - Main Slides.pdf": {
+    "bytes": 585050,
+    "sha256": "22810ac34337422a0e8fbbdcbd092b2d3c850cc7227324a4fce2a93767baa747"
+  },
+  "Uni-Grad - Appendix.pptx": {
+    "bytes": 664209,
+    "sha256": "118c844942c9d04e90a886e25678972e86e88355fca17161f134030a05903bb9"
+  },
+  "Uni-Grad - Appendix.pdf": {
+    "bytes": 215875,
+    "sha256": "71104154c29ea7272336e8a4c24497206ed7e3774999da8683ab4bd8709cab95"
+  },
+  "Uni-Grad - Rehearsal Guide.pdf": {
+    "bytes": 48705,
+    "sha256": "3bccc63ab7c43033b80a52c13ced5970f9dfaaa4e3268d75f775a64b076fb0b5"
+  },
+  "Uni-Grad - Rehearsal Guide.md": {
+    "bytes": 16906,
+    "sha256": "d99b08e02dc795bab2cebaaebdb341ce0424a4e8a5fdedba5d9662463d154ece"
+  },
+  "Cost Assumptions.md": {
+    "bytes": 5425,
+    "sha256": "e693a81d9bb7067a4b2127c5ecd05b8c2dbfe3c3e58c54df03bf9fa1b92a45a2"
+  },
+  "Review Notes.md": {
+    "bytes": 1842,
+    "sha256": "18c346863b3ac93c539379aa79ca079b14b1240572bc87aa6ea056f2ce4f7a95"
+  },
+  "Slide Overview.png": {
+    "bytes": 426082,
+    "sha256": "f6e24e1588c0acb27d5f3a2e8e98b845a122497ec21d92a149718a829f4865cf"
+  },
+  "Appendix Overview.png": {
+    "bytes": 117438,
+    "sha256": "3eddf081d5e9a5f9fcae5f7cbd4fac3e617e3c14b0d4e3631bbcc89435cd2cd0"
+  },
+  "Cover Preview.pdf": {
+    "bytes": 546058,
+    "sha256": "e0d9f3ad6a12da49a32b5462fc561260e653403a5f4379851a27dd391f164def"
+  },
+  "Cover Preview.png": {
+    "bytes": 136415,
+    "sha256": "a2bc01c8a6cd06232916601e2de381a675b247a18bff9a704564067cfe5146e8"
+  },
+  "Presentation-checks.json": {
+    "bytes": 2681,
+    "sha256": "d56aff19070df132d9a9e6475bc0f110c60c84a3c3f11c4087c3f2671fcb51fb"
+  },
+  "Uni-Grad - Editable Source.zip": {
+    "bytes": 5473160,
+    "sha256": "299cf01b1aa52fe1a6eae52a74c09ba69c58d99182f872b1ddf5ff1553bb5eb1"
+  }
+}
