@@ -1,0 +1,47 @@
+{
+  "template_file": "Presentation_Template.pptx",
+  "template_sha256": "623b21fe5222f3b757ae2829fe25b89a1f75428b9f928ef5b852cf9cf56d7f5f",
+  "thesis_main_commit": "798e1611042be81b086a27a02259942b3f9d89ab",
+  "thesis_pages": 44,
+  "slides": 20,
+  "main_slides_including_qa": 16,
+  "hidden_backup_slides": 4,
+  "narrative_seconds": 765,
+  "reserved_qa_seconds": 135,
+  "maximum_planned_seconds": 900,
+  "proposed_speaking_seconds": {
+    "Omar": 375,
+    "Abdelrahman": 390
+  },
+  "objective_pairs": [
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "text_fit_issues": [],
+  "original_template_masters_layouts_themes_preserved": true,
+  "logo_order": [
+    "MSA Logo - V.png",
+    "CSE Department.png",
+    "Engineering1.png",
+    "University of Greenwich - Blue.png"
+  ],
+  "publication_dates": {
+    "DispatchMAS": "2026 (year shown in supplied paper; exact day/month not printed)",
+    "TriAgent": "18 June 2026"
+  },
+  "status": "Validated presentation; user approved publication on main"
+}
