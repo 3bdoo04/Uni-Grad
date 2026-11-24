@@ -17,7 +17,7 @@ The prepared talk is 12:45; 2:15 is reserved for questions and transitions, with
 
 ## Content decisions
 
-- Original template masters, layouts and themes are retained. Navy headings, the green ribbon/wave, campus image, olive branch and lower rule remain. Cards and native editable diagrams replace long instructional bullets.
+- Original template masters, layouts and themes are retained. The redesigned cover uses the template's cleaner white-and-green layout, with an aligned logo header, one large two-line title, and a three-column student/supervisor block. The campus photograph and watermark are kept out of the cover's text field. The original green ribbon, navy rule and typography preserve the template's visual identity. Slides 2–20 retain their existing design and content.
 - Logos appear MSA → CSE → Engineering → Greenwich. Source logo bytes are unchanged; transparent margins use native PowerPoint crop properties.
 - The eight thesis objectives are paired 1+8, 2+7, 3+4, and 5+6 into four objectives. No original objective is dropped.
 - Exactly two main literature slides cover DispatchMAS and TriAgent, each with method, results, limitations and publication date. DispatchMAS's supplied PDF prints year 2026, not an exact publication day/month; only the verified year is shown. TriAgent prints 18 June 2026.
@@ -42,3 +42,5 @@ PowerPoint uses the template's Calibri/Calibri Light family. PDF rendering uses 
 The audit checks original masters/layouts/themes, logo bytes and order, all eight objectives, paper slide content, timing, hidden backup slides, off-slide shapes and estimated text fit. Every slide is also rendered for visual inspection. Logo files and original template are included as inputs; the thesis and research PDFs remain available in the project repository.
 
 The user has approved publication of this presentation on `main`. The original thesis and pre-midterm presentation files remain unchanged.
+
+The latest revision changes only the first slide's layout. The 12:45 narrative, 2:15 Q&A allocation, objective pairings, literature slides, and speaker notes remain unchanged.

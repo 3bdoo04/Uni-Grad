@@ -43,5 +43,28 @@
     "DispatchMAS": "2026 (year shown in supplied paper; exact day/month not printed)",
     "TriAgent": "18 June 2026"
   },
-  "status": "Validated presentation; user approved publication on main"
+  "status": "Validated presentation; user approved publication on main",
+  "cover_redesigned": true,
+  "unchanged_slides_verified": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "cover_scope_check": "Only slide 1 changed; other slide XML, notes, text and pixels unchanged"
 }
