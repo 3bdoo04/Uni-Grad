@@ -6,8 +6,8 @@ Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–16; separ
 | Slide | Topic | Suggested speaker | Window |
 |---|---|---|---|
 | 1 | Title | Omar | 00:00–00:20 |
-| 2 | Problem & aim | Omar | 00:20–01:25 |
-| 3 | Four objectives | Omar | 01:25–02:25 |
+| 2 | Problem definition | Omar | 00:20–01:20 |
+| 3 | Aim & four objectives | Omar | 01:20–02:25 |
 | 4 | Industrial partner | Omar | 02:25–02:50 |
 | 5 | DispatchMAS | Omar | 02:50–03:50 |
 | 6 | TriAgent | Omar | 03:50–04:55 |
@@ -36,19 +36,19 @@ Delivery cue: Open with the purpose. Do not read the full title or every logo. P
 
 Transition: First, what makes that connection difficult?
 
-### 2. Problem definition & aim
+### 2. Problem definition
 
-The problem is the transfer from an incomplete conversation to a request that hospital staff can review. A caller may correct symptoms or an address. The system must update what it knows rather than continue using the old answer. Location is a separate issue: an ordinary telephone call does not automatically give us GPS coordinates. Finally, generating or sending an alert is different from confirming that a receiver accepted it. Our aim is to connect information collection, preliminary urgency, caller-confirmed location, and approved notification in English and Egyptian Arabic. The prototype represents one hospital and uses simulated ambulance resources.
+Our main problem is turning an emergency call into enough reliable information for an urgency assessment and an ambulance decision. First, callers may omit symptoms or details about breathing and consciousness. A serious case can therefore be hard to recognise from the description alone. Second, help needs a confirmed location and a suitable available vehicle, with the needed equipment and a reasonable travel time. Third, corrections must reach the final request, and the receiving team must actually receive it. These are the workflow risks our prototype will address and test; they are not claims about failure rates at a particular hospital.
 
-Delivery cue: Move left to right across the three cards, then point to the aim. Explain GPS as location coordinates if asked.
+Delivery cue: Explain the main statement, then each row as a problem and its consequence. Use one caller example; keep implementation details for the design slides.
 
-Transition: We express that aim through four measurable objectives.
+Transition: Our aim and four objectives show how the prototype will address these problems.
 
-### 3. Project objectives
+### 3. Project aim & objectives
 
-We have combined the eight thesis objectives into four without dropping any. First, provide bilingual voice interaction and measure response time, language performance, and service cost. Second, preserve one incident record through corrections, interruptions, and delayed results. Third, combine preliminary triage and reviewed first-aid guidance with caller-confirmed location. Fourth, recommend a suitable simulated ambulance and send only a staff-approved request, with receipts and duplicate prevention. Each objective has an observable test. The 1.5-second value is a design target for the first meaningful audible reply, not a result and not the time to finish the whole report.
+Our aim is to develop and evaluate a hospital telephone prototype for preliminary triage and staff-approved ambulance dispatch in English and Egyptian Arabic. Four paired objectives turn that aim into work we can test. First, provide bilingual voice interaction and measure meaningful-reply delay, language performance and cost. Second, preserve patient facts and corrections through interruptions and reject outdated results. Third, recommend preliminary urgency and reviewed first aid, then confirm the caller’s location. Fourth, match a simulated ambulance using availability, travel time and equipment, obtain staff approval, and verify request delivery with failure and duplicate tests. The 1.5-second value remains a target, not a result.
 
-Delivery cue: Use about 15 seconds per card. Do not read all the supporting text.
+Delivery cue: State the aim once, then spend about 12 seconds per objective. Bold blue names the objective, regular blue describes the work, and green identifies its evaluation.
 
 Transition: Clinical review and realistic requirements will need input from an industrial partner.
 
