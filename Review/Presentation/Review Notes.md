@@ -1,6 +1,6 @@
 # Midterm presentation — revised review draft
 
-Current revision: **stronger, evidence-based relevance blocks on slides 5 and 6**, based on published presentation `ea79b9f`. DispatchMAS connects one focused question at a time to our symptom interview, and its simulated 94% contact result to tests of message delivery, retries and duplicate prevention with a working receiver. TriAgent connects task selection to our controller and explains that results obtained with vital signs and a trained classifier must be evaluated separately for our phone-triage task. DispatchMAS’s Method block explicitly identifies the adopted questioning pattern. **Slides 5-6 - Literature Review.pdf** provides a focused preview. The animated call slide is retained.
+Current revision: **medical results, clearer agent roles and shared-feature relevance on slides 5 and 6**, based on published presentation `a5fef18`. DispatchMAS now reports that medical guidance was provided in 91% of simulated scenarios needing advice, with most physician helpfulness ratings 4 or 5 out of 5. This measures advice provision, not clinical accuracy. TriAgent's Method names its Orchestrator Agent, specialist modules and Critique Agent and explains task selection, urgency assessment, case retrieval, care planning, safety checks and review. Relevance describes what each paper shares with our project: emergency-call questioning and medical guidance for DispatchMAS; coordinated urgency assessment from incomplete patient information for TriAgent. **Slides 5-6 - Literature Review.pdf** provides a focused preview. The animated call slide is retained.
 
 The main deck has 17 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 
@@ -12,4 +12,4 @@ The narrative plan is **12:45**, with **2:15** reserved for questions and transi
 
 Review the editable PowerPoint, PDF, overview and guide here. The source ZIP rebuilds both slide files and their audits. The review ZIP includes the complete review package.
 
-The user has **approved pushing this literature-relevance revision to main**. The thesis and earlier pre-midterm presentation are unchanged.
+The user has **requested these literature revisions and a push to main**. The thesis and earlier pre-midterm presentation are unchanged.
