@@ -132,5 +132,5 @@
   "testing_slide": 12,
   "testing_animation_clicks": 6,
   "testing_examples_with_expected_outputs": 6,
-  "status": "User requested exact replacement wording for the address-correction and reviewer-approval test methods, and a push to main"
+  "status": "User requested replacing stale with outdated on slide 15 and a push to main"
 }
