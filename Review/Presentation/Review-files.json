@@ -1,31 +1,31 @@
 {
   "Uni-Grad - Midterm Presentation.pptx": {
-    "bytes": 3258756,
-    "sha256": "a0370bd6794e90c1aaa2511a4f2d83dc21150e6700e8544e8ea890cb3527d0bb"
+    "bytes": 3258803,
+    "sha256": "b749da72c8914513552b61ed75a70edf7d68c746861c1cbafedad21695775b51"
   },
   "Uni-Grad - Midterm Presentation.pdf": {
-    "bytes": 739228,
-    "sha256": "47e9d59600eaab06636e6004b0947f641ca770d4c52a459afd57999abebffbe3"
+    "bytes": 739017,
+    "sha256": "79533e4eea89297987aac36265561a188ff38ec4460c24dee81db928c30a1e09"
   },
   "Uni-Grad - Main Slides.pdf": {
-    "bytes": 634316,
-    "sha256": "59a13a37e26d650b71b66424b60e5bfa97125ca585877c8923d731d4022b1e32"
+    "bytes": 634105,
+    "sha256": "a8916812dd1ee436e867b1f8bce58ecfdb9b0deea0b81005dddf607709f2dac5"
   },
   "Uni-Grad - Appendix.pptx": {
     "bytes": 664208,
-    "sha256": "55e4057d072959bd8b90c5f0230542f89cc2bfbca11485538f99b7fbe9790842"
+    "sha256": "603392f8150bacaae3da53894649f76ec8e53aeeb64507932e77bab9bb60c21c"
   },
   "Uni-Grad - Appendix.pdf": {
     "bytes": 230772,
-    "sha256": "2e11f1378d8ccdc3419a5352f0fba537fe30e60d91e54e0d45e0a6275dc70497"
+    "sha256": "979236d553a9ec23205b5eb89823eff1d1036f25db5de794a9bf4eab75824fdd"
   },
   "Uni-Grad - Rehearsal Guide.pdf": {
-    "bytes": 51861,
-    "sha256": "59967e461d2e294a8ac9795c32f5d21f2e18bf4a741db1b41c0a388642c754c3"
+    "bytes": 51978,
+    "sha256": "e87c707388db303b1a0855a6913cbb7c65b60ba2725a1c5dfa4a37f5248d51c4"
   },
   "Uni-Grad - Rehearsal Guide.md": {
-    "bytes": 18579,
-    "sha256": "613421bbdcf00d357edc57a1f2a4a5d9db86df70a92d8b7a95e147ea35607229"
+    "bytes": 18627,
+    "sha256": "ee1e9c43bba0e0fb478d8505d432c59e021371e4dd0a0783392eb3b472c6e79c"
   },
   "Uni-Grad - Animated Call Example.pptx": {
     "bytes": 655941,
@@ -56,20 +56,20 @@
     "sha256": "e693a81d9bb7067a4b2127c5ecd05b8c2dbfe3c3e58c54df03bf9fa1b92a45a2"
   },
   "Review Notes.md": {
-    "bytes": 2910,
-    "sha256": "c9db02e2c2bb2187905d5bd94d5908da4a94fffc77937f439b48f4afee6d249e"
+    "bytes": 2904,
+    "sha256": "c7b0f72f6355f25f86c225c93788518927b3a1afd1ffc933b7bfc50369f34d1a"
   },
   "Slide Overview.png": {
-    "bytes": 513154,
-    "sha256": "dbd5346cefd1b983e127194e6a560bac94651635eb85de47e4f40e53acce84d2"
+    "bytes": 514316,
+    "sha256": "2d95e8a8608246fbe1f01fd9f241d7acedff815a41064555108a3245aa3b1875"
   },
   "Appendix Overview.png": {
     "bytes": 117438,
     "sha256": "3eddf081d5e9a5f9fcae5f7cbd4fac3e617e3c14b0d4e3631bbcc89435cd2cd0"
   },
   "Slides 2-3 Preview.pdf": {
-    "bytes": 579212,
-    "sha256": "913adcdb26290212807ed72aed56aec261103e6b3dbeb75250dc780824d8e3e3"
+    "bytes": 578938,
+    "sha256": "09231c8a2b51075083773f99cd6c4713ad8a7d70a4cbe4c100bcb9d2b08486ed"
   },
   "Slide 2 - Problem Definition.png": {
     "bytes": 114125,
@@ -80,8 +80,8 @@
     "sha256": "434cb555ab89d5ae5d632d5906b6230a2413b932a2d39f5c427f663a03c50301"
   },
   "Slides 5-6 - Literature Review.pdf": {
-    "bytes": 580064,
-    "sha256": "57b45b50ac19848b94b043d606b70365a5458b33e6006f19104bf210212181a4"
+    "bytes": 579790,
+    "sha256": "99566d8632f6e8de77f7393a06a2c312ef5a86d34e43096ca06872f59a383fca"
   },
   "Slide 5 - DispatchMAS.png": {
     "bytes": 147924,
@@ -92,8 +92,8 @@
     "sha256": "725a050338b8c90a178333dbe4d5c656eeec5aabab78ceb9f847a19522efbb7e"
   },
   "Slide 11 - Contributions.pdf": {
-    "bytes": 581170,
-    "sha256": "f1be8da2563fdbc04d318b201160f6fd5122851360d2b0924e6240a00429b458"
+    "bytes": 580896,
+    "sha256": "88ed3d811217d67475b56a8076701b449fdf875194545cd35fa22a2c62fa4c81"
   },
   "Slide 11 - Contributions.png": {
     "bytes": 128867,
@@ -116,43 +116,43 @@
     "sha256": "389a4f7f6b74165b313916f24eb7098a183d9e60bd3a8cff80c97d3f8d36a6f0"
   },
   "Slide 12 - Testing.pdf": {
-    "bytes": 580467,
-    "sha256": "46f8424afeb748cf33b6dcf47a64edb016e2611ff9515f1c5cdbf21de70e9485"
+    "bytes": 580248,
+    "sha256": "3631a934ab324d08fbd166827d2c87fafc2eec7e51501fa008277d89825c5c50"
   },
   "Slide 12 - Testing.png": {
-    "bytes": 159241,
-    "sha256": "fcecd91c8414f6a76156b10a23479e54ef0e950c92ecfa9891bfd55e53360e10"
+    "bytes": 161922,
+    "sha256": "a6d4b4a6fd78d7ffa47c4a201ccafca1d7b4668808aaa7d6fec1fb3205ba7fed"
   },
   "Uni-Grad - Animated Testing.pptx": {
-    "bytes": 657384,
-    "sha256": "585579b37cf354683a6449a524f0619aa8be882e3b172f93021e90caaa0bc4db"
+    "bytes": 657431,
+    "sha256": "2eeb90ca9a102f9d22ac31aae215cff1b7ead1f1eee46327a384bcd1dd34ad93"
   },
   "Testing - Animation Preview.mp4": {
-    "bytes": 530410,
-    "sha256": "dfbe4266051c8e6fda3b1580b734db8383a4964c9fc4965f62c05b0191f9c26b"
+    "bytes": 551709,
+    "sha256": "7920ba40af1a57abd9e7c0a47debf6e309d524ee4700c115e48a8c00f6aa1148"
   },
   "Testing - Animation Preview.gif": {
-    "bytes": 819007,
-    "sha256": "4a5c1e43d919e5ec2ccd2c8be3cfbb805427c2d0e8625cb00bfcc91cca0d0ba3"
+    "bytes": 838171,
+    "sha256": "adcb9bddfb61732ddca84a6033391bc04c67184aeff46f20b2592a3276ae4dca"
   },
   "Testing Animation Checks.json": {
     "bytes": 442,
     "sha256": "16c30e2d524b6bae183ba9ac73cda332b4f4a9e35b1116b8a7b15fc5ee4b315e"
   },
   "Cover Preview.pdf": {
-    "bytes": 574687,
-    "sha256": "4f9ee8af1d4854f576d1d2515389d6693f22c1c217fc3b45198cc3835f68d6fc"
+    "bytes": 574413,
+    "sha256": "2e1ca0392f2239db12791f87d8ff54983f1512fd55a87fa83828605c535bc3e4"
   },
   "Cover Preview.png": {
     "bytes": 136415,
     "sha256": "a2bc01c8a6cd06232916601e2de381a675b247a18bff9a704564067cfe5146e8"
   },
   "Presentation-checks.json": {
-    "bytes": 3241,
-    "sha256": "6c6eb2f1d4c1d3fcd69c331637a5074a9b44ee6ad4adcd7560bc5267a188bc3c"
+    "bytes": 3202,
+    "sha256": "2d449a9a8e7735297e481257121836b94ea9d5f709c68b507ab77ab03915f2a3"
   },
   "Uni-Grad - Editable Source.zip": {
-    "bytes": 5615163,
-    "sha256": "5b36311bd7382b107212e39638620851dde789c8d12fd5628c44d38e445efd5d"
+    "bytes": 5615553,
+    "sha256": "a5f13897a93f1efefe917c9a9cd3c36d1e134375243cfbc7109698b0eb910195"
   }
 }
