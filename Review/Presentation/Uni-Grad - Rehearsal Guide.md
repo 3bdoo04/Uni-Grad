@@ -79,11 +79,11 @@ Transition: Our narrower design uses three language-model roles and a Python con
 
 ### 7. Proposed system — block diagram
 
-The thick voice arrow connects the caller and speech tools to Agent 1, the only speaking agent. Agent 2 recommends preliminary urgency and retrieves reviewed first aid. Agent 3 confirms location, checks simulated vehicle availability, travel time and equipment, and prepares the report. The three vertical double-headed arrows carry tasks and results between the agents and the Python controller. That controller is ordinary software. It maintains one record, rejects outdated results, and runs only the work affected by a change. Along the bottom, a reviewable incident reaches staff approval before transmission. The upward receipt arrow records acceptance at the test receiver. Staff can take over at any stage; receipt is separate from ambulance assignment or departure.
+Follow the voice row first. The caller gives symptoms and an address. Speech recognition creates text; Agent 1 collects facts and corrections, then its reply becomes speech. Only Agent 1 speaks. The Python controller runs needed tasks and rejects outdated results. Agent 2 recommends urgency and retrieves reviewed first aid. Agent 3 confirms the address, checks simulated ambulances using travel time, availability and equipment, and prepares the report. Their work and delivery status remain in one incident record. The doctor reviews the report and approves the request, requests corrections or takes over. Only approved requests reach delivery software. The test receiver stores the request and returns confirmation. Repeated sends keep the same ID; after three attempts without confirmation, alert the reviewer. Receipt and simulated assignment remain separate.
 
-Delivery cue: Trace the thick voice arrow, then the three task/result arrows, then the approval and receipt paths. The agents are not a forced sequential chain.
+Delivery cue: Use 30 clicks in the four visual rows: voice; controller and agents; supporting records/sources; review and delivery. Each block and arrow is a separate entrance. Do not read every block verbatim; trace the named data and the confirmation/failure arrows. Stay within the 70-second allocation. The final status arrow updates the controller, which writes the incident record.
 
-Transition: The flowchart shows what happens when information is missing or a delivery fails.
+Transition: The flowchart shows the corresponding approval and delivery decisions.
 
 ### 8. Proposed system — flowchart
 

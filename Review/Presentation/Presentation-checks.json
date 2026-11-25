@@ -132,5 +132,9 @@
   "testing_slide": 12,
   "testing_animation_clicks": 6,
   "testing_examples_with_expected_outputs": 6,
-  "status": "User requested replacing stale with outdated on slide 15 and a push to main"
+  "block_diagram_slide": 7,
+  "block_diagram_blocks": 13,
+  "block_diagram_arrows": 17,
+  "block_diagram_clicks": 30,
+  "status": "User requested slide 7 redrawn from the thesis with explicit block functions, separate animations for every block and arrow, and the presentation plus standalone Presentation Block Diagram pushed to main"
 }

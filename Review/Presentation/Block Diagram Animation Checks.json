@@ -1,0 +1,143 @@
+{
+  "slide_number": 7,
+  "native_fade_entrances": 30,
+  "on_click_steps": 30,
+  "duration_ms": 250,
+  "libreoffice_imported_fades": 30,
+  "libreoffice_imported_clicks": 30,
+  "macros": false,
+  "automatic_slide_advance": false,
+  "prototype_is_planned": true,
+  "progressive_state_count": 31,
+  "final_pdf_pages": 1,
+  "final_png_pixels": [
+    2880,
+    1620
+  ],
+  "preview_fps": 20,
+  "preview_fade_ms": 200,
+  "preview_hold_seconds": 0.6,
+  "animation_order": [
+    {
+      "shape_id": 11,
+      "name": "Block - caller"
+    },
+    {
+      "shape_id": 15,
+      "name": "Block - speech_input"
+    },
+    {
+      "shape_id": 63,
+      "name": "Arrow - caller_audio"
+    },
+    {
+      "shape_id": 19,
+      "name": "Block - agent1"
+    },
+    {
+      "shape_id": 67,
+      "name": "Arrow - transcript"
+    },
+    {
+      "shape_id": 23,
+      "name": "Block - speech_output"
+    },
+    {
+      "shape_id": 71,
+      "name": "Arrow - reply_text"
+    },
+    {
+      "shape_id": 75,
+      "name": "Arrow - spoken_reply"
+    },
+    {
+      "shape_id": 27,
+      "name": "Block - controller"
+    },
+    {
+      "shape_id": 80,
+      "name": "Arrow - interview_tasks"
+    },
+    {
+      "shape_id": 31,
+      "name": "Block - agent2"
+    },
+    {
+      "shape_id": 84,
+      "name": "Arrow - medical_tasks"
+    },
+    {
+      "shape_id": 43,
+      "name": "Block - medical_sources"
+    },
+    {
+      "shape_id": 96,
+      "name": "Arrow - guidance_lookup"
+    },
+    {
+      "shape_id": 35,
+      "name": "Block - agent3"
+    },
+    {
+      "shape_id": 88,
+      "name": "Arrow - coordination_tasks"
+    },
+    {
+      "shape_id": 47,
+      "name": "Block - maps_fleet"
+    },
+    {
+      "shape_id": 100,
+      "name": "Arrow - location_resource_lookup"
+    },
+    {
+      "shape_id": 39,
+      "name": "Block - record"
+    },
+    {
+      "shape_id": 92,
+      "name": "Arrow - record_updates"
+    },
+    {
+      "shape_id": 51,
+      "name": "Block - reviewer"
+    },
+    {
+      "shape_id": 107,
+      "name": "Arrow - report_for_review"
+    },
+    {
+      "shape_id": 111,
+      "name": "Arrow - reviewer_corrections"
+    },
+    {
+      "shape_id": 55,
+      "name": "Block - delivery"
+    },
+    {
+      "shape_id": 115,
+      "name": "Arrow - staff_approval"
+    },
+    {
+      "shape_id": 59,
+      "name": "Block - receiver"
+    },
+    {
+      "shape_id": 119,
+      "name": "Arrow - approved_request"
+    },
+    {
+      "shape_id": 123,
+      "name": "Arrow - delivery_confirmation"
+    },
+    {
+      "shape_id": 127,
+      "name": "Arrow - delivery_failure_alert"
+    },
+    {
+      "shape_id": 135,
+      "name": "Arrow - delivery_status"
+    }
+  ],
+  "preview_note": "MP4/GIF automatically demonstrate the native one-object-at-a-time sequence with short review timings; PowerPoint uses presenter clicks."
+}

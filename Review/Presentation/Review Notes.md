@@ -1,6 +1,6 @@
 # Midterm presentation — revised review draft
 
-Current revision: **replace “stale” with “outdated” on slide 15**, based on published presentation `53ca758`. The planned response reads “Reject outdated results; limit retries; prevent duplicate dispatch requests.” The matching rehearsal-guide term is updated. Other main slides, animations, the approved testing wording and the 15-minute plan are retained. The user explicitly requested the wording change and a push to main.
+Current revision: **slide 7 redrawn from thesis Figure 3.1**, based on published presentation `32cb55d`. All 13 components are arranged in four landscape rows: caller/speech/interview; controller and assessment/coordination agents; record and reviewed medical/location/resource data; reviewer approval and delivery. Every block has an explicit function. All 13 blocks and 17 arrows have separate on-click entrances. The single reviewer role, software receiver, three-agent/controller distinction, delivery confirmation, failure alert and status update are visible. **Presentation Block Diagram.pptx** is the editable animated standalone slide; **Presentation Block Diagram.pdf / .png** are its static vector/high-resolution exports; the MP4/GIF demonstrate the 30 builds automatically. Matching standalone files are published under the repository's **Thesis Diagrams** folder. Other main slides and the 15-minute plan are retained.
 
 The main deck has 17 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 
@@ -12,4 +12,4 @@ The narrative plan is **12:45**, with **2:15** reserved for questions and transi
 
 Review the editable PowerPoint, PDF, overview and guide here. The source ZIP rebuilds both slide files and their audits. The review ZIP includes the complete review package.
 
-The user has **requested this slide 12 revision and a push to main**. The thesis and earlier pre-midterm presentation are unchanged.
+The user has **requested the updated presentation and a standalone named Presentation Block Diagram pushed to main**. The thesis and original thesis diagrams are unchanged.
