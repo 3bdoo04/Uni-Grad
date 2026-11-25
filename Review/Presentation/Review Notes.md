@@ -1,10 +1,10 @@
 # Midterm presentation — revised review draft
 
-Current revision: **slide 11 rebuilt as four illustrated, animated contribution cards**, based on published presentation `338a020` and thesis section 1.5. Each card pairs a specific study boundary with a planned prototype contribution: caller corrections without restarting; English/Egyptian Arabic with separate speech/interpretation error checks; confirmed location and explained ambulance selection; and confirmed delivery with duplicate prevention and failure alerts. The comparisons use DispatchMAS and TriAgent, not incompatible accuracy percentages. The distinction is the connection of these functions in one hospital-call prototype, not a claim that every individual feature is new to all research. **Slide 11 - Contributions.pdf / .png** show the final slide. **Uni-Grad - Animated Contributions.pptx** provides the editable slide with four presenter-controlled fades; **Contributions - Animation Preview.mp4 / .gif** show the four builds automatically.
+Current revision: **slide 12 completely replaced with six concrete testing procedures**, based on published presentation `a5269d2` and thesis sections 1.4 and 3.1. The three-column grid names the test type, tested feature and exact action/output check. Examples include a Building 12-to-21 correction with a late map result; busy, missing-equipment and suitable ambulances; replayed English/Egyptian Arabic/mixed calls; second-attempt confirmation, three failed attempts and a lost confirmation; and blocked dispatch without authorized approval. Medical outputs are compared with clinician-approved answers and missed Red cases are counted. Six editable illustrations accompany six presenter-controlled row entrances. **Slide 12 - Testing.pdf / .png** show the final slide. **Uni-Grad - Animated Testing.pptx** contains the standalone animation; **Testing - Animation Preview.mp4 / .gif** demonstrate the six clicks automatically. These are planned tests and expected checks, not completed results.
 
 The main deck has 17 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 
-Implemented the requested plain slide numbers, removal of bottom-left thesis footers, separate Method/Results/Limitations paper panels, clearer block-diagram arrows, minimal flowchart on slide 8, native testing and cost tables, and one accountable lead per timetable task (Omar: six; Abdelrahman: five). The original template and approved cover design are retained.
+Retained the requested plain slide numbers, removal of bottom-left thesis footers, separate paper panels, clearer block-diagram arrows, flowchart on slide 8, animated contribution cards on slide 11, native cost table, and one accountable lead per timetable task (Omar: six; Abdelrahman: five). Testing now uses an editable three-column grid so each complete row can be animated. The original template and approved cover design are retained.
 
 The narrative plan is **12:45**, with **2:15** reserved for questions and transitions. Speaker notes and the rehearsal guide reflect the revisions. The two supplied rubrics remain mapped in the guide.
 
@@ -12,4 +12,4 @@ The narrative plan is **12:45**, with **2:15** reserved for questions and transi
 
 Review the editable PowerPoint, PDF, overview and guide here. The source ZIP rebuilds both slide files and their audits. The review ZIP includes the complete review package.
 
-The user has **requested this slide 11 revision and a push to main**. The thesis and earlier pre-midterm presentation are unchanged.
+The user has **requested this slide 12 revision and a push to main**. The thesis and earlier pre-midterm presentation are unchanged.

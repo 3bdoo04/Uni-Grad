@@ -119,11 +119,11 @@ Transition: We will test these contributions through the following procedures.
 
 ### 12. Proposed testing procedures
 
-Testing starts with individual components, then connected services, then full simulated emergency calls. Annotated scenarios provide the facts we expect to collect. A qualified reviewer must agree urgency labels and guidance before testing. We will measure information errors, urgency errors, location confirmation, meaningful-reply delay, notification outcomes, and cost. We will separate transcript interpretation from end-to-end speech tests, so we can identify whether an error came from recognition or reasoning. Tests include noise, code-switching, corrected addresses, unavailable vehicles, call interruptions, and delayed or duplicate receipts. A failure is an outcome to record and explain. No clinical effectiveness or real ambulance deployment is established by these prototype tests.
+Each test has a specific input and expected check. First, compare urgency and first aid with clinician-reviewed answers, counting missed Red cases. Second, change Building 12 to 21 and return the map result for 12 last: the report must keep 21. Third, make ambulance A busy, B missing equipment and C suitable: select C, or alert staff when C is removed. Fourth, replay English, Egyptian Arabic and mixed calls, checking facts and measuring the first meaningful reply. Fifth, test a second-attempt confirmation, three failed attempts and a lost confirmation: stop retries, alert staff and prevent duplicates. Finally, block unauthorized or unapproved sending; valid approval permits one request.
 
-Delivery cue: Explain the three table columns. Give one unit-test example and one failure/recovery example, then identify the full system test.
+Delivery cue: Reveal the six rows in order with six clicks. Point to the action and expected output in the last column. Allow about eight seconds per row plus a short introduction. The first meaningful reply has a target below 1.5 seconds, not a measured result.
 
-Transition: The following table estimates a small test budget using checked unit prices and explicit usage assumptions.
+Transition: The following table estimates the cost of running a small test programme.
 
 ### 13. Cost analysis — estimated test budget
 

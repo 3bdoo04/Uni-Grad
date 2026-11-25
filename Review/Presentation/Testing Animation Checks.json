@@ -1,0 +1,17 @@
+{
+  "slide_number": 12,
+  "native_fade_entrances": 6,
+  "on_click_steps": 6,
+  "duration_ms": 350,
+  "libreoffice_imported_fades": 6,
+  "libreoffice_imported_clicks": 6,
+  "macros": false,
+  "automatic_slide_advance": false,
+  "tests_are_planned": true,
+  "columns": [
+    "Testing type",
+    "What will be tested",
+    "How it will be tested"
+  ],
+  "preview_note": "MP4/GIF automatically demonstrate the six presenter-controlled clicks."
+}
