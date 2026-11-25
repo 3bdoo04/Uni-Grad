@@ -79,11 +79,11 @@ Transition: Our narrower design uses three language-model roles and a Python con
 
 ### 7. Proposed system — block diagram
 
-Follow the voice row first. The caller gives symptoms and an address. Speech recognition creates text; Agent 1 collects facts and corrections, then its reply becomes speech. Only Agent 1 speaks. The Python controller runs needed tasks and rejects outdated results. Agent 2 recommends urgency and retrieves reviewed first aid. Agent 3 confirms the address, checks simulated ambulances using travel time, availability and equipment, and prepares the report. Their work and delivery status remain in one incident record. The doctor reviews the report and approves the request, requests corrections or takes over. Only approved requests reach delivery software. The test receiver stores the request and returns confirmation. Repeated sends keep the same ID; after three attempts without confirmation, alert the reviewer. Receipt and simulated assignment remain separate.
+Start with the caller and speech tools. They convert audio to text and reply text back to speech. Click the arrow, then Agent 1: it collects symptoms and addresses, asks questions and retains corrections. The next arrow leads to ordinary Python software, which stores the case, runs agents when facts change and rejects outdated results. Its lower branches are separate tasks, not an agent chain. Agent 2 suggests urgency using reviewed first aid. Agent 3 confirms location and recommends a simulated ambulance using travel time, availability and equipment, then writes the report. The reviewer approves, corrects or takes over. Only approved requests reach the software receiver, which stores and confirms delivery. The controller retries at most three times with the same ID and alerts the reviewer if confirmation is missing.
 
-Delivery cue: Use 30 clicks in the four visual rows: voice; controller and agents; supporting records/sources; review and delivery. Each block and arrow is a separate entrance. Do not read every block verbatim; trace the named data and the confirmation/failure arrows. Stay within the 70-second allocation. The final status arrow updates the controller, which writes the incident record.
+Delivery cue: Use 13 clicks: block, arrow, next block. After the controller, reveal each branch arrow before its destination block. The legend explains navy transcript/reply text, gray dashed agent work/results and green hospital messages. Speak through the diagram within the existing 70-second slot.
 
-Transition: The flowchart shows the corresponding approval and delivery decisions.
+Transition: The flowchart shows the approval and delivery decisions in more detail.
 
 ### 8. Proposed system — flowchart
 

@@ -133,8 +133,10 @@
   "testing_animation_clicks": 6,
   "testing_examples_with_expected_outputs": 6,
   "block_diagram_slide": 7,
-  "block_diagram_blocks": 13,
-  "block_diagram_arrows": 17,
-  "block_diagram_clicks": 30,
-  "status": "User requested slide 7 redrawn from the thesis with explicit block functions, separate animations for every block and arrow, and the presentation plus standalone Presentation Block Diagram pushed to main"
+  "block_diagram_blocks": 7,
+  "block_diagram_arrows": 6,
+  "block_diagram_clicks": 13,
+  "block_diagram_reveal_order": "block, arrow, next block",
+  "block_diagram_legend_types": 3,
+  "status": "User requested a smaller, simpler core block diagram, block-arrow-next-block animation, an arrow legend and both updated files pushed to main"
 }
