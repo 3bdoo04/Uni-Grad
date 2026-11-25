@@ -1,6 +1,6 @@
 # Midterm presentation — revised review draft
 
-Current revision: **animated patient-call example on slide 9**, based on published presentation `6b5e0e1`. Five click-triggered fades reveal a fictional Egyptian Arabic caller, collected details and location, preliminary urgency and a simulated vehicle, staff approval, and confirmed delivery. The Arabic quote is editable. All case details and the 8-minute travel estimate are illustrative. **Uni-Grad - Animated Call Example.pptx** contains the same slide on its own; **MP4/GIF previews** play the sequence automatically. PDF previews are static.
+Current revision: **stronger, evidence-based relevance blocks on slides 5 and 6**, based on published presentation `ea79b9f`. DispatchMAS connects one focused question at a time to our symptom interview, and its simulated 94% contact result to tests of message delivery, retries and duplicate prevention with a working receiver. TriAgent connects task selection to our controller and explains that results obtained with vital signs and a trained classifier must be evaluated separately for our phone-triage task. DispatchMAS’s Method block explicitly identifies the adopted questioning pattern. **Slides 5-6 - Literature Review.pdf** provides a focused preview. The animated call slide is retained.
 
 The main deck has 17 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 
@@ -12,4 +12,4 @@ The narrative plan is **12:45**, with **2:15** reserved for questions and transi
 
 Review the editable PowerPoint, PDF, overview and guide here. The source ZIP rebuilds both slide files and their audits. The review ZIP includes the complete review package.
 
-The user has **approved pushing this animated presentation revision to main**. The thesis and earlier pre-midterm presentation are unchanged.
+The user has **approved pushing this literature-relevance revision to main**. The thesis and earlier pre-midterm presentation are unchanged.
