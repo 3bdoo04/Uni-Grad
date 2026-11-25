@@ -1,51 +1,51 @@
 {
   "Uni-Grad - Midterm Presentation.pptx": {
-    "bytes": 3246376,
-    "sha256": "34b3ca5e2de59b480b2cc5ea7379ba31d66ffcf502fead44cc2229e0d9e7693f"
+    "bytes": 3247624,
+    "sha256": "05f8502e8b4da5d616dfe24f724de2394d6670d622642cb2797876c17e9ef7c1"
   },
   "Uni-Grad - Midterm Presentation.pdf": {
-    "bytes": 591637,
-    "sha256": "b49a414d7b9935d876ae7a87101aeb0b9d444632476e3433be772574732617f6"
+    "bytes": 588098,
+    "sha256": "99c08ebd5a6bd2c2a669b409c31a35409f022c6ef3eef33e9c0cadc4d6c701a7"
   },
   "Uni-Grad - Main Slides.pdf": {
-    "bytes": 577929,
-    "sha256": "047d635c8f35bc127bfc15c42009599a74cc930eb2f25ed397ced951b3802c0c"
+    "bytes": 574513,
+    "sha256": "6c7e6becf115886b786f593f0ef3a9fd72d4782c04a8cf82a8aea304a3072033"
   },
   "Uni-Grad - Appendix.pptx": {
     "bytes": 664212,
-    "sha256": "603a1a505b35f526eae9996e6ab072649984efa4f3aa3df5303ac14ca57626bb"
+    "sha256": "d49b3273824a7129aeb474fb59af033287aa79914e90b420924d7d98c0ccb654"
   },
   "Uni-Grad - Appendix.pdf": {
     "bytes": 215875,
-    "sha256": "1922b903b693b77a9bbe47ebadfb5cc6652fa8740980d460f74c47dfadedb1d8"
+    "sha256": "003bb27585b2fb7c3faa0b335e43b14a2e5872d1b1e5d9a7461d711673d3bb0f"
   },
   "Uni-Grad - Rehearsal Guide.pdf": {
-    "bytes": 48849,
-    "sha256": "5cf390a84d763f3e263f00b390b6dc3317d34d95a75891858ac85f44ecc96f71"
+    "bytes": 49146,
+    "sha256": "179904ed78f1eec80014f23fc7729d5be3803dfa9f5f403321cfe73ace739c4b"
   },
   "Uni-Grad - Rehearsal Guide.md": {
-    "bytes": 17144,
-    "sha256": "190db9e2b07a08fb945e9ed8963fa81fdc6cdbded48d317df608a91423a0c91b"
+    "bytes": 17332,
+    "sha256": "9468e1f1d37c4568d16c07c55e483f1c5faff8db1c320f1967967e5dfe7fe425"
   },
   "Cost Assumptions.md": {
     "bytes": 5425,
     "sha256": "e693a81d9bb7067a4b2127c5ecd05b8c2dbfe3c3e58c54df03bf9fa1b92a45a2"
   },
   "Review Notes.md": {
-    "bytes": 2353,
-    "sha256": "d97ed5a464df5c5622d3bb8fcffad4287293e12d5ecfa61a8a74f5247937c392"
+    "bytes": 2466,
+    "sha256": "bde7b81c9c48c50671dbcee629c30ec11522d1c0c1c61fa06c3261d199888542"
   },
   "Slide Overview.png": {
-    "bytes": 437803,
-    "sha256": "c1d2140e524ada5ed1c1b5a7bb5cb60686b923765a0ae0f75bffc48aa9af035b"
+    "bytes": 449535,
+    "sha256": "70d5e372821344a084d30be59ea433cf652efd7b3f656aa90a8bd7fbbacb4de1"
   },
   "Appendix Overview.png": {
     "bytes": 117438,
     "sha256": "3eddf081d5e9a5f9fcae5f7cbd4fac3e617e3c14b0d4e3631bbcc89435cd2cd0"
   },
   "Slides 2-3 Preview.pdf": {
-    "bytes": 542968,
-    "sha256": "95b00856bce7abaf7c104dab48aca3afb8ba0e6b2a4b6cef87fcefb6d17f0b6a"
+    "bytes": 537505,
+    "sha256": "c49c3195597f6ef3dec92b31619a721e89f44408477b3fb62426d0cb4b3c09d4"
   },
   "Slide 2 - Problem Definition.png": {
     "bytes": 114125,
@@ -55,20 +55,32 @@
     "bytes": 132889,
     "sha256": "434cb555ab89d5ae5d632d5906b6230a2413b932a2d39f5c427f663a03c50301"
   },
+  "Slides 5-6 - Literature Review.pdf": {
+    "bytes": 538420,
+    "sha256": "3aa48e4640307ebf253783392d0a391e5c85afa6de608d35a66e77ea3d8554ec"
+  },
+  "Slide 5 - DispatchMAS.png": {
+    "bytes": 146351,
+    "sha256": "634605ea057821814bf5382709f4c13932b61b96460039b0ff247555d4f7945e"
+  },
+  "Slide 6 - TriAgent.png": {
+    "bytes": 150978,
+    "sha256": "1d62d0c6f25cadf63bc568fc2063c6e64b5229904f65f8f6f0ea9d79190846ae"
+  },
   "Cover Preview.pdf": {
-    "bytes": 538630,
-    "sha256": "9a3bfbc52786a145308cc23feb7694f71e8978774a4fd36d28ca70ceda2bfc5b"
+    "bytes": 533167,
+    "sha256": "30c986d55f2bb321f51e99f93d622585d17d317cd62de6e673217ba832718fd5"
   },
   "Cover Preview.png": {
     "bytes": 136415,
     "sha256": "a2bc01c8a6cd06232916601e2de381a675b247a18bff9a704564067cfe5146e8"
   },
   "Presentation-checks.json": {
-    "bytes": 2758,
-    "sha256": "9c7ec4ea97c500259f8f93f19281cc192be2b40170fdfb264ceb622e7b5e2053"
+    "bytes": 2890,
+    "sha256": "cede3feff4a5c06e51638786c554015437cd2780556b1d1fc86ca493eec7e7f6"
   },
   "Uni-Grad - Editable Source.zip": {
-    "bytes": 5475551,
-    "sha256": "44574afe77ba17535b0edcd742f2d715cb7c92a15be86704be702dba0b49cb12"
+    "bytes": 5479398,
+    "sha256": "d4880ea5ad80da5755b75bcdcd70f776be827427a1d6f866f418b6c10d75a740"
   }
 }

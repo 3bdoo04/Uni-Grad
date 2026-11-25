@@ -62,19 +62,19 @@ Transition: Two of the reviewed studies most directly inform our proposed workfl
 
 ### 5. Review of literature — DispatchMAS
 
-DispatchMAS is our closest reference for emergency caller–dispatcher conversation. It creates 100 synthetic calls from 50 adult records. A complaint taxonomy and protocol guide caller and dispatcher agents, and four physicians review the simulated interactions. The reported 94 percent concerns contacting the correct potential auxiliary agent within the simulation. It is not a measured delivery rate to a real hospital or ambulance. Its communication experiments are English-only, the address is fixed, and responder contact is mocked. We take the focused-questioning idea, then plan separate tests for varied locations, bilingual telephone input, and receipt at a working test receiver.
+DispatchMAS aims to test emergency dispatch conversations in a controlled simulation. One agent plays the caller and another follows emergency questioning guidelines. Four doctors review 100 simulated calls based on 50 patient records. The 94 percent result means doctors judged that the dispatcher contacted the appropriate additional service, such as police or fire, within the simulation. It is a judgment about a simulated contact choice. The tests use English and one fixed address; responder replies are also generated, and real telephone speech is not validated. We use its questioning and first-aid structure, then plan tests with bilingual callers, varied locations and confirmed delivery to our test receiver.
 
-Delivery cue: Define what the 94% measures before discussing the number. Point to “mocked in simulation.”
+Delivery cue: Follow Goal → Method → Results across the top, then Limitations → Relevance below. Explain 94% as the extra-service contact decision within a simulation.
 
-Transition: TriAgent informs a different part of the design: selecting work when information is incomplete.
+Transition: TriAgent addresses urgency assessment when the patient description is incomplete.
 
 ### 6. Review of literature — TriAgent
 
-TriAgent was published on 18 June 2026. It adaptively selects clinical tasks, retrieves related cases, applies safety checks, and records a critique. On 1,000 retrospective cases it reports 65.7 percent overall urgency accuracy and 85 percent critical-case recall. Those outcomes use structured clinical information and a separately trained triage classifier. The improvement cannot be attributed to agent count alone, and the same accuracy cannot be promised for a telephone symptom report. Its median runtimes are 64 seconds for the bypass and 186 seconds for the continuation path. We adopt selective task execution and reviewability, while measuring spoken-reply latency separately. Abdelrahman will now show our narrower three-agent design.
+TriAgent aims to assess urgency and plan care when descriptions are incomplete. An agent chooses relevant checks, searches similar past cases and reviews medication safety. A separately trained model uses symptoms and vital signs to assign urgency. In 1,000 past cases, 65.7 percent received the correct urgency level. The 85 percent metric has a different denominator: among cases the study labelled critical, 85 percent were also classified critical. About 15 percent received another urgency label. Tests use recorded clinical data; typical case processing takes more than a minute, and live calls and ambulance delivery are not tested. This guides our controller’s choice of tasks and staff review, while we test bilingual calls and approved dispatch. Abdelrahman will show our design.
 
-Delivery cue: Keep the two percentages tied to their own labels. Pause before the limitations. Handoff to Abdelrahman.
+Delivery cue: Read the two result statements separately. The first covers all 1,000 cases; the second covers only cases with the study’s critical reference label. End with the relevance and handoff.
 
-Transition: These studies motivate focused conversation, selective tasks, and a visible staff-review step.
+Transition: Our narrower design uses three language-model roles and a Python controller.
 
 ### 7. Proposed system — block diagram
 

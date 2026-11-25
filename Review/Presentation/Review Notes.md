@@ -1,6 +1,6 @@
 # Midterm presentation — revised review draft
 
-Current revision: **two wording changes on slides 2 and 3**, based on published presentation `9fdb0b4`. The third problem's consequence now reads **“The dispatch request may fail to reach the receiving team.”** Objective 4 now says **“Send approved dispatch requests and record whether delivery was confirmed.”** Ambulance matching is retained. The slightly smaller body text in that objective keeps the full wording within the existing card. **Slides 2-3 Preview.pdf** and individual PNGs show the revised slides.
+Current revision: **literature slides 5 and 6**, based on published presentation `9a01ae5`. Each paper now has five blocks: **Goal → Method → Results → Limitations → Relevance to our project**. Method and result panels are wider for readability. DispatchMAS’s 94% explicitly describes doctors’ judgment of the extra responder contacted within simulated calls. TriAgent’s 65.7% covers all 1,000 cases, while 85% covers only cases the study labelled critical. Limitations and project relevance are written as direct explanations. **Slides 5-6 - Literature Review.pdf** and the two individual PNGs provide a focused preview.
 
 The main deck has 16 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 
