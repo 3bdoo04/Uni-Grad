@@ -38,7 +38,7 @@ Transition: First, what makes that connection difficult?
 
 ### 2. Problem definition
 
-Our main problem is turning an emergency call into enough reliable information for an urgency assessment and an ambulance decision. First, callers may omit symptoms or details about breathing and consciousness. A serious case can therefore be hard to recognise from the description alone. Second, help needs a confirmed location and a suitable available vehicle, with the needed equipment and a reasonable travel time. Third, corrections must reach the final request, and the receiving team must actually receive it. These are the workflow risks our prototype will address and test; they are not claims about failure rates at a particular hospital.
+Our main problem is turning an emergency call into enough reliable information for an urgency assessment and an ambulance decision. First, callers may omit symptoms or details about breathing and consciousness. A serious case can therefore be hard to recognise from the description alone. Second, help needs a confirmed location and a suitable available vehicle, with the needed equipment and a reasonable travel time. Third, the dispatch request must reach the receiving team, and the incident must show whether delivery was confirmed. These are the workflow risks our prototype will address and test; they are not claims about failure rates at a particular hospital.
 
 Delivery cue: Explain the main statement, then each row as a problem and its consequence. Use one caller example; keep implementation details for the design slides.
 

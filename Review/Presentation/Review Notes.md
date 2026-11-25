@@ -1,6 +1,6 @@
 # Midterm presentation — revised review draft
 
-Current revision: **slides 2 and 3**, based on published presentation `42cea41`. Slide 2 explains the main problem through missing details needed to judge urgency, unclear location or unsuitable ambulance, and incorrect or undelivered dispatch requests. Slide 3 now combines the aim with the four objective pairs. **Slides 2-3 Preview.pdf** and the individual slide PNGs are provided for focused review.
+Current revision: **two wording changes on slides 2 and 3**, based on published presentation `9fdb0b4`. The third problem's consequence now reads **“The dispatch request may fail to reach the receiving team.”** Objective 4 now says **“Send approved dispatch requests and record whether delivery was confirmed.”** Ambulance matching is retained. The slightly smaller body text in that objective keeps the full wording within the existing card. **Slides 2-3 Preview.pdf** and individual PNGs show the revised slides.
 
 The main deck has 16 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 

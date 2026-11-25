@@ -1,74 +1,74 @@
 {
   "Uni-Grad - Midterm Presentation.pptx": {
-    "bytes": 3246390,
-    "sha256": "16c14392dffb767bfa6aa2edb40adb96fe87bc943079296a215ec15801fd120c"
+    "bytes": 3246376,
+    "sha256": "34b3ca5e2de59b480b2cc5ea7379ba31d66ffcf502fead44cc2229e0d9e7693f"
   },
   "Uni-Grad - Midterm Presentation.pdf": {
-    "bytes": 591699,
-    "sha256": "7d49abd0193f46503a5768f7bb586bc98f506deac438f906c2a6b56e58635993"
+    "bytes": 591637,
+    "sha256": "b49a414d7b9935d876ae7a87101aeb0b9d444632476e3433be772574732617f6"
   },
   "Uni-Grad - Main Slides.pdf": {
-    "bytes": 577991,
-    "sha256": "f9ebc863fbde89a427878ef2c5001f85142e8ef9687c61e09c8970e1af14e6c5"
+    "bytes": 577929,
+    "sha256": "047d635c8f35bc127bfc15c42009599a74cc930eb2f25ed397ced951b3802c0c"
   },
   "Uni-Grad - Appendix.pptx": {
     "bytes": 664212,
-    "sha256": "d93769329b46e98f01b9fa2ca4dcac5ea31218895825cb68b91d93f0b8cd7baf"
+    "sha256": "603a1a505b35f526eae9996e6ab072649984efa4f3aa3df5303ac14ca57626bb"
   },
   "Uni-Grad - Appendix.pdf": {
     "bytes": 215875,
-    "sha256": "f08d1cbe4419f3178194731ea746e8f8cccf1ae4ef337e1ce88cabeaea2e61ab"
+    "sha256": "1922b903b693b77a9bbe47ebadfb5cc6652fa8740980d460f74c47dfadedb1d8"
   },
   "Uni-Grad - Rehearsal Guide.pdf": {
-    "bytes": 48834,
-    "sha256": "c6ab7007fa6583a104ac3487173a4e7f77c37b15509b8e8c8deab48f897934dd"
+    "bytes": 48849,
+    "sha256": "5cf390a84d763f3e263f00b390b6dc3317d34d95a75891858ac85f44ecc96f71"
   },
   "Uni-Grad - Rehearsal Guide.md": {
-    "bytes": 17124,
-    "sha256": "4da774825400233093e5eafdb006031f4e0cd15da0c14d8656734325e20e3bd5"
+    "bytes": 17144,
+    "sha256": "190db9e2b07a08fb945e9ed8963fa81fdc6cdbded48d317df608a91423a0c91b"
   },
   "Cost Assumptions.md": {
     "bytes": 5425,
     "sha256": "e693a81d9bb7067a4b2127c5ecd05b8c2dbfe3c3e58c54df03bf9fa1b92a45a2"
   },
   "Review Notes.md": {
-    "bytes": 2234,
-    "sha256": "2c3265f4213aff923d5004eee7bcf783302a042d5a69c70b18a59d62e1719a24"
+    "bytes": 2353,
+    "sha256": "d97ed5a464df5c5622d3bb8fcffad4287293e12d5ecfa61a8a74f5247937c392"
   },
   "Slide Overview.png": {
-    "bytes": 438568,
-    "sha256": "8ed728268b05831fae1aac5ed9e22698d1028824df6b4d4b4b4c2828239203b2"
+    "bytes": 437803,
+    "sha256": "c1d2140e524ada5ed1c1b5a7bb5cb60686b923765a0ae0f75bffc48aa9af035b"
   },
   "Appendix Overview.png": {
     "bytes": 117438,
     "sha256": "3eddf081d5e9a5f9fcae5f7cbd4fac3e617e3c14b0d4e3631bbcc89435cd2cd0"
   },
   "Slides 2-3 Preview.pdf": {
-    "bytes": 543023,
-    "sha256": "ebef406d4c56c7ed8485ac38f98bd2d9b112f51280c8ec436bf5dfe0875d76dd"
+    "bytes": 542968,
+    "sha256": "95b00856bce7abaf7c104dab48aca3afb8ba0e6b2a4b6cef87fcefb6d17f0b6a"
   },
   "Slide 2 - Problem Definition.png": {
-    "bytes": 119076,
-    "sha256": "4db013c84d76074baa44026cb961bf800df8bf0a16230413fad9e44e2b27687d"
+    "bytes": 114125,
+    "sha256": "abf2c2d9d2715bbf546b70c3dfecff6b4244c2045885c48dcc32089f58e3a7ac"
   },
   "Slide 3 - Aim and Objectives.png": {
-    "bytes": 130084,
-    "sha256": "8d8c9961957138b55c75872ce237256487b0a9ee92137f176f65b84dcaaf07ab"
+    "bytes": 132889,
+    "sha256": "434cb555ab89d5ae5d632d5906b6230a2413b932a2d39f5c427f663a03c50301"
   },
   "Cover Preview.pdf": {
-    "bytes": 538665,
-    "sha256": "14e629ad991596d9d107918a4b0f8dd2a3051792c99e683cc9e452011b49ca00"
+    "bytes": 538630,
+    "sha256": "9a3bfbc52786a145308cc23feb7694f71e8978774a4fd36d28ca70ceda2bfc5b"
   },
   "Cover Preview.png": {
     "bytes": 136415,
     "sha256": "a2bc01c8a6cd06232916601e2de381a675b247a18bff9a704564067cfe5146e8"
   },
   "Presentation-checks.json": {
-    "bytes": 2743,
-    "sha256": "4d3045b8d605efe77775452de0b259906cb3575be9aefed48687d1d9cf351434"
+    "bytes": 2758,
+    "sha256": "9c7ec4ea97c500259f8f93f19281cc192be2b40170fdfb264ceb622e7b5e2053"
   },
   "Uni-Grad - Editable Source.zip": {
-    "bytes": 5475305,
-    "sha256": "9443cdf9e1ce0d29a1db7ad966a9eef55d40f3df62c65c6c15a83fd3844bafa6"
+    "bytes": 5475551,
+    "sha256": "44574afe77ba17535b0edcd742f2d715cb7c92a15be86704be702dba0b49cb12"
   }
 }
