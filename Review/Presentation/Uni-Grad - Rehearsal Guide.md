@@ -1,7 +1,7 @@
 # Midterm rehearsal guide
 
 Prepared narrative: **12:45**. Reserved Q&A: **2:15**. Total plan: **15:00**.
-Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–16; separate appendix slides 1–4.
+Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–17; separate appendix slides 1–4.
 
 | Slide | Topic | Suggested speaker | Window |
 |---|---|---|---|
@@ -11,16 +11,17 @@ Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–16; separ
 | 4 | Industrial partner | Omar | 02:25–02:50 |
 | 5 | DispatchMAS | Omar | 02:50–03:50 |
 | 6 | TriAgent | Omar | 03:50–04:55 |
-| 7 | Block diagram | Abdelrahman | 04:55–06:15 |
-| 8 | Flowchart | Abdelrahman | 06:15–07:15 |
-| 9 | Specifications | Abdelrahman | 07:15–07:50 |
-| 10 | Contributions | Abdelrahman | 07:50–08:35 |
-| 11 | Testing | Abdelrahman | 08:35–09:40 |
-| 12 | Cost estimate | Abdelrahman | 09:40–10:25 |
-| 13 | Timetable | Abdelrahman | 10:25–11:25 |
-| 14 | Challenges | Omar | 11:25–12:10 |
-| 15 | Conclusion | Omar | 12:10–12:45 |
-| 16 | Questions | Both | 12:45–15:00 |
+| 7 | Block diagram | Abdelrahman | 04:55–06:05 |
+| 8 | Flowchart | Abdelrahman | 06:05–06:50 |
+| 9 | Animated call example | Abdelrahman | 06:50–07:35 |
+| 10 | Specifications | Abdelrahman | 07:35–08:05 |
+| 11 | Contributions | Abdelrahman | 08:05–08:45 |
+| 12 | Testing | Abdelrahman | 08:45–09:40 |
+| 13 | Cost estimate | Abdelrahman | 09:40–10:25 |
+| 14 | Timetable | Abdelrahman | 10:25–11:25 |
+| 15 | Challenges | Omar | 11:25–12:10 |
+| 16 | Conclusion | Omar | 12:10–12:45 |
+| 17 | Questions | Both | 12:45–15:00 |
 
 ## Objective pairing
 
@@ -90,9 +91,17 @@ The rounded symbol starts the call. The process boxes collect facts, assess prel
 
 Delivery cue: Follow the start/process symbols, explain the staff-approval diamond, then the receipt diamond. Trace the No loops and failure end explicitly.
 
-Transition: These steps give us measurable system specifications.
+Transition: Here is one fictional call following those steps.
 
-### 9. System specifications
+### 9. An example emergency call
+
+This is a proposed example, not a live prototype result. Click one: the caller says in Egyptian Arabic that their father is dizzy and needs help. Click two: the conversation collects symptoms, checks consciousness and breathing, and confirms the address. Click three: the urgency recommendation goes to staff, with an available simulated vehicle; the eight-minute estimate is an assumption. Click four: staff review and approve request 042. Click five: our test receiver confirms arrival of that request, and the incident records delivery. The animation shows the intended workflow. Delivery confirmation is separate from ambulance departure.
+
+Delivery cue: Use Slide Show mode. Click once per step and explain the newly revealed panel. Five 350-millisecond fades are controlled by the presenter; the slide never advances automatically.
+
+Transition: We will measure these steps against the following system targets.
+
+### 10. System specifications
 
 These are targets and boundaries. The 1.5-second value is the first meaningful audible response after a caller finishes a turn. A filler acknowledgment does not qualify. English, Egyptian Arabic, and mixed-language calls will be measured separately. The prototype represents one hospital and uses simulated ambulance resources. The proposed notification limit is three attempts with duplicate prevention. Urgency labels and first-aid content still require qualified review.
 
@@ -100,7 +109,7 @@ Delivery cue: Say “target” before the latency value. Expand p95 as the 95th 
 
 Transition: Our contribution is how these requirements connect into one workflow.
 
-### 10. Contributions & uniqueness
+### 11. Contributions & uniqueness
 
 We compare capabilities rather than ranking incompatible accuracy percentages. DispatchMAS evaluates synthetic conversation with a fixed address and mocked contact. TriAgent evaluates clinical information and escalation logic, without a telephone or receiver trial. Our anticipated contribution is the connection between bilingual telephone intake, corrections, confirmed location, a suitable simulated resource, and approved notification with a receipt. Every entry in our row is planned. We are not proposing a new language model or clinical triage standard, and we are not claiming that no other system has ever combined similar functions.
 
@@ -108,7 +117,7 @@ Delivery cue: Read across one study row, then the planned row. Emphasize the wor
 
 Transition: We will test that contribution through the following measurements.
 
-### 11. Proposed testing procedures
+### 12. Proposed testing procedures
 
 Testing starts with individual components, then connected services, then full simulated emergency calls. Annotated scenarios provide the facts we expect to collect. A qualified reviewer must agree urgency labels and guidance before testing. We will measure information errors, urgency errors, location confirmation, meaningful-reply delay, notification outcomes, and cost. We will separate transcript interpretation from end-to-end speech tests, so we can identify whether an error came from recognition or reasoning. Tests include noise, code-switching, corrected addresses, unavailable vehicles, call interruptions, and delayed or duplicate receipts. A failure is an outcome to record and explain. No clinical effectiveness or real ambulance deployment is established by these prototype tests.
 
@@ -116,7 +125,7 @@ Delivery cue: Explain the three table columns. Give one unit-test example and on
 
 Transition: The following table estimates a small test budget using checked unit prices and explicit usage assumptions.
 
-### 12. Cost analysis — estimated test budget
+### 13. Cost analysis — estimated test budget
 
 This estimate uses official prices checked on 24 November for 100 five-minute test calls. The model-token allowance covers all three roles. We budget live transcription and both the telephone and SIP connection legs. Speech generation and map usage fit within the stated monthly free allowances, assuming those allowances are unused. The total is 17 dollars and 78 cents before tax. Existing equipment and internet are assumed. This is a US test route; an Egyptian hospital line needs its own quote. Providers are costing candidates, and actual usage will be measured.
 
@@ -124,7 +133,7 @@ Delivery cue: State the test scenario, total and free-allowance assumption. Expl
 
 Transition: The remaining design work is scheduled against the confirmed submission date.
 
-### 13. Timetable — responsibilities
+### 14. Timetable — responsibilities
 
 The dates retain the thesis schedule through the confirmed 17 January deadline. The proposed presentation allocation gives each deliverable one accountable lead. Omar owns scope, guidance and bilingual cases, controller interfaces, location rules, evaluation scenarios and the final report. Abdelrahman owns telephone and speech, the dashboard and receiver, privacy and costing, integration review and the decision log. This is six deliverables for Omar and five for Abdelrahman; peer review still happens across the team. The parallel rows show work that can happen together. Dates and owners are proposed, with a 14–16 January correction buffer. Omar will finish with the main challenges and conclusion.
 
@@ -132,7 +141,7 @@ Delivery cue: Point to the Lead column and two parallel task pairs. Each row has
 
 Transition: The plan also depends on resolving several technical and clinical constraints.
 
-### 14. Limitations & challenges
+### 15. Limitations & challenges
 
 The main risks are misunderstandings in noisy or mixed-language speech, missing facts or an uncertain location, and failures across connected services. The proposed controls are separate speech-versus-interpretation tests, focused clarification, explicit unknown fields, and access to staff. For late or failed service results, the controller checks whether the incident has changed and manages bounded retries with one request identifier. These are design requirements to implement and verify. Before a hospital demonstration, the team still needs authorization and qualified review of urgency criteria, first-aid sources, and test scenarios.
 
@@ -140,7 +149,7 @@ Delivery cue: Use “planned response” and “will test”; do not say the pro
 
 Transition: Our conclusion is therefore about progress, the proposed approach, and the next steps.
 
-### 15. Conclusion
+### 16. Conclusion
 
 We have defined the problem, reviewed six studies, and prepared requirements and preliminary diagrams. Our proposed approach connects three agents, a Python controller, and staff approval. Next come detailed design, tool selection, clinical review, costing, implementation, and simulated-call evaluation. The contribution is a reviewable path from call to acknowledged request. Thank you; we welcome your questions.
 
@@ -148,7 +157,7 @@ Delivery cue: Return to the opening purpose. Stop the prepared narrative at or b
 
 Transition: Questions and discussion.
 
-### 16. Thank you
+### 17. Thank you
 
 This slide starts the question period. The planned talk ends at 12:45, leaving 2:15 inside the 15-minute maximum. Keep answers focused and open the separate appendix only when it helps. If questions are handled separately by the committee, the prepared talk still remains below the limit.
 

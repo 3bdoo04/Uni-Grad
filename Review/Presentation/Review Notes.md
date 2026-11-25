@@ -1,8 +1,8 @@
 # Midterm presentation — revised review draft
 
-Current revision: **literature slides 5 and 6**, based on published presentation `9a01ae5`. Each paper now has five blocks: **Goal → Method → Results → Limitations → Relevance to our project**. Method and result panels are wider for readability. DispatchMAS’s 94% explicitly describes doctors’ judgment of the extra responder contacted within simulated calls. TriAgent’s 65.7% covers all 1,000 cases, while 85% covers only cases the study labelled critical. Limitations and project relevance are written as direct explanations. **Slides 5-6 - Literature Review.pdf** and the two individual PNGs provide a focused preview.
+Current revision: **animated patient-call example on slide 9**, based on published presentation `6b5e0e1`. Five click-triggered fades reveal a fictional Egyptian Arabic caller, collected details and location, preliminary urgency and a simulated vehicle, staff approval, and confirmed delivery. The Arabic quote is editable. All case details and the 8-minute travel estimate are illustrative. **Uni-Grad - Animated Call Example.pptx** contains the same slide on its own; **MP4/GIF previews** play the sequence automatically. PDF previews are static.
 
-The main deck has 16 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
+The main deck has 17 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 
 Implemented the requested plain slide numbers, removal of bottom-left thesis footers, separate Method/Results/Limitations paper panels, clearer block-diagram arrows, minimal flowchart on slide 8, native testing and cost tables, and one accountable lead per timetable task (Omar: six; Abdelrahman: five). The original template and approved cover design are retained.
 
@@ -12,4 +12,4 @@ The narrative plan is **12:45**, with **2:15** reserved for questions and transi
 
 Review the editable PowerPoint, PDF, overview and guide here. The source ZIP rebuilds both slide files and their audits. The review ZIP includes the complete review package.
 
-The user has **approved publication of this revision on main**. The thesis and earlier pre-midterm presentation are unchanged.
+The user has **approved pushing this animated presentation revision to main**. The thesis and earlier pre-midterm presentation are unchanged.

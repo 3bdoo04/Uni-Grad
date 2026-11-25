@@ -3,7 +3,7 @@
   "template_sha256": "623b21fe5222f3b757ae2829fe25b89a1f75428b9f928ef5b852cf9cf56d7f5f",
   "thesis_main_commit": "798e1611042be81b086a27a02259942b3f9d89ab",
   "thesis_pages": 44,
-  "main_slides_including_qa": 16,
+  "main_slides_including_qa": 17,
   "appendix_slides_in_separate_file": 4,
   "hidden_slides": 0,
   "narrative_seconds": 765,
@@ -124,5 +124,7 @@
     "Limitations",
     "Relevance to our project"
   ],
-  "status": "User approved publication of the clarified five-block literature slides on main"
+  "animated_scenario_slide": 9,
+  "animation_clicks": 5,
+  "status": "User approved pushing the animated patient-call revision to main"
 }
