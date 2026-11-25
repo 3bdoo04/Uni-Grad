@@ -111,11 +111,11 @@ Transition: Our contribution is how these requirements connect into one workflow
 
 ### 11. Contributions & uniqueness
 
-We compare capabilities rather than ranking incompatible accuracy percentages. DispatchMAS evaluates synthetic conversation with a fixed address and mocked contact. TriAgent evaluates clinical information and escalation logic, without a telephone or receiver trial. Our anticipated contribution is the connection between bilingual telephone intake, corrections, confirmed location, a suitable simulated resource, and approved notification with a receipt. Every entry in our row is planned. We are not proposing a new language model or clinical triage standard, and we are not claiming that no other system has ever combined similar functions.
+Section 1.5 proposes four contributions. TriAgent has no live-call correction tests; our controller will update affected tasks without restarting the interview. DispatchMAS tests English; we propose English and Egyptian Arabic, separating speech from interpretation errors. Its fixed address leaves varied locations untested; we will explain the confirmed address and simulated ambulance choice, showing missing facts. Its responder contact is simulated; we will verify approved request delivery, prevent duplicates and alert staff on failure. Our distinction is connecting these functions in one prototype. These are planned contributions.
 
-Delivery cue: Read across one study row, then the planned row. Emphasize the word “planned.”
+Delivery cue: Use four clicks in reading order: top left, top right, bottom left, bottom right. Spend about nine seconds per card, then emphasize the shared workflow. Say planned; do not claim improved clinical outcomes.
 
-Transition: We will test that contribution through the following measurements.
+Transition: We will test these contributions through the following procedures.
 
 ### 12. Proposed testing procedures
 

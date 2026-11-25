@@ -1,6 +1,6 @@
 # Midterm presentation — revised review draft
 
-Current revision: **medical results, clearer agent roles and shared-feature relevance on slides 5 and 6**, based on published presentation `a5fef18`. DispatchMAS now reports that medical guidance was provided in 91% of simulated scenarios needing advice, with most physician helpfulness ratings 4 or 5 out of 5. This measures advice provision, not clinical accuracy. TriAgent's Method names its Orchestrator Agent, specialist modules and Critique Agent and explains task selection, urgency assessment, case retrieval, care planning, safety checks and review. Relevance describes what each paper shares with our project: emergency-call questioning and medical guidance for DispatchMAS; coordinated urgency assessment from incomplete patient information for TriAgent. **Slides 5-6 - Literature Review.pdf** provides a focused preview. The animated call slide is retained.
+Current revision: **slide 11 rebuilt as four illustrated, animated contribution cards**, based on published presentation `338a020` and thesis section 1.5. Each card pairs a specific study boundary with a planned prototype contribution: caller corrections without restarting; English/Egyptian Arabic with separate speech/interpretation error checks; confirmed location and explained ambulance selection; and confirmed delivery with duplicate prevention and failure alerts. The comparisons use DispatchMAS and TriAgent, not incompatible accuracy percentages. The distinction is the connection of these functions in one hospital-call prototype, not a claim that every individual feature is new to all research. **Slide 11 - Contributions.pdf / .png** show the final slide. **Uni-Grad - Animated Contributions.pptx** provides the editable slide with four presenter-controlled fades; **Contributions - Animation Preview.mp4 / .gif** show the four builds automatically.
 
 The main deck has 17 slides and ends with **Thank you / Any questions?**. Four supporting slides are in the separate Appendix PowerPoint/PDF.
 
@@ -12,4 +12,4 @@ The narrative plan is **12:45**, with **2:15** reserved for questions and transi
 
 Review the editable PowerPoint, PDF, overview and guide here. The source ZIP rebuilds both slide files and their audits. The review ZIP includes the complete review package.
 
-The user has **requested these literature revisions and a push to main**. The thesis and earlier pre-midterm presentation are unchanged.
+The user has **requested this slide 11 revision and a push to main**. The thesis and earlier pre-midterm presentation are unchanged.

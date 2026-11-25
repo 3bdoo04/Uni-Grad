@@ -126,5 +126,8 @@
   ],
   "animated_scenario_slide": 9,
   "animation_clicks": 5,
-  "status": "User requested medical advice results, explicit TriAgent roles, shared-feature relevance blocks and a push to main"
+  "contributions_slide": 11,
+  "contributions_animation_clicks": 4,
+  "contributions_thesis_section": "1.5",
+  "status": "User requested a complete animated slide 11 redesign from thesis section 1.5 and comparisons with the reviewed papers, and a push to main"
 }
