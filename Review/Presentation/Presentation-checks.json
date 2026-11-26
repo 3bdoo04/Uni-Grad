@@ -141,5 +141,10 @@
   "block_diagram_clicks": 14,
   "block_diagram_reveal_order": "block, arrow, next block",
   "block_diagram_legend_types": 3,
-  "status": "User requested vivid bidirectional arrows, Agent 1 Conversation, progressive body reveals on all non-cover/non-closing slides, visible references and hidden industrial standards; push both updated files"
+  "status": "Timetable slide 14 appears whole with no animations; all other slides retained.",
+  "whole_entry_slides": [
+    1,
+    14,
+    18
+  ]
 }

@@ -24,7 +24,7 @@ Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Visible slides 1–18; hi
 | 17 | References | Omar | 12:35–12:45 |
 | 18 | Questions | Both | 12:45–15:00 |
 
-On entry, the background, title, green subtitle and page number appear together. Remaining body units reveal one at a time; the cover and Thank you slide appear whole. Diagram: 13 core clicks plus legend; call example: 5 stages plus summary; contributions: 4 cards plus summary; testing: headings plus 6 rows. Native cost-table rows reveal individually. References slide 17 receives 10 seconds; Thank you slide 18 begins Q&A at 12:45. Hidden standards slide 19 is skipped in normal playback.
+On entry, the background, title, green subtitle and page number appear together. Remaining body units reveal one at a time; the cover, timetable (slide 14) and Thank you slide appear whole. Diagram: 13 core clicks plus legend; call example: 5 stages plus summary; contributions: 4 cards plus summary; testing: headings plus 6 rows. Native cost-table rows reveal individually. References slide 17 receives 10 seconds; Thank you slide 18 begins Q&A at 12:45. Hidden standards slide 19 is skipped in normal playback.
 
 ## Objective pairing
 
@@ -140,7 +140,7 @@ Transition: The remaining design work is scheduled against the confirmed submiss
 
 The dates retain the thesis schedule through the confirmed 17 January deadline. The proposed presentation allocation gives each deliverable one accountable lead. Omar owns scope, guidance and bilingual cases, controller interfaces, location rules, evaluation scenarios and the final report. Abdelrahman owns telephone and speech, the dashboard and receiver, privacy and costing, integration review and the decision log. This is six deliverables for Omar and five for Abdelrahman; peer review still happens across the team. The parallel rows show work that can happen together. Dates and owners are proposed, with a 14–16 January correction buffer. Omar will finish with the main challenges and conclusion.
 
-Delivery cue: Point to the Lead column and two parallel task pairs. Each row has one accountable owner. Handoff back to Omar after the confirmed deadline.
+Delivery cue: Show the complete timetable at once. Point to the Lead column and two parallel task pairs. Each row has one accountable owner. Handoff back to Omar after the confirmed deadline.
 
 Transition: The plan also depends on resolving several technical and clinical constraints.
 

@@ -187,18 +187,9 @@
   },
   {
     "slide": 14,
-    "mode": "progressive_body",
-    "chrome_shape_ids": [
-      2,
-      3,
-      4
-    ],
-    "title_subtitle_number_together": true,
-    "body_events": 13,
-    "native_tables": "one native table row per reveal",
-    "authored_events_preserved": 0,
-    "prepended_events": 0,
-    "appended_events": 0
+    "mode": "whole_slide",
+    "body_events": 0,
+    "title_subtitle_number_together": true
   },
   {
     "slide": 15,
