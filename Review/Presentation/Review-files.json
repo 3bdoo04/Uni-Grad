@@ -1,15 +1,15 @@
 {
   "Uni-Grad - Midterm Presentation.pptx": {
-    "bytes": 3277127,
-    "sha256": "20b9c46103c8798ec9709d536bfb123e16a9a8695c26174bae3943219e80df7e"
+    "bytes": 3279013,
+    "sha256": "62e602d6e4776709f46a2291d67fa8031a0e67d6d968928f44e0b10ec5c6465f"
   },
   "Uni-Grad - Midterm Presentation.pdf": {
-    "bytes": 666441,
-    "sha256": "3cc097d501297bed3dca7b336ff0204caffd02e52ef854a0212acbb985b998b2"
+    "bytes": 671301,
+    "sha256": "c5ecc7480935c2b23a538e92ab570866d3d181fc5b54ac93cdf51fbba97c0dad"
   },
   "Uni-Grad - Main Slides.pdf": {
-    "bytes": 651914,
-    "sha256": "2b4e1e58a694ed37dab7079a61c7861c37b32f377249e71e723c6c0b9209c1ca"
+    "bytes": 656774,
+    "sha256": "c83c92f24a549e6654ae4f2c5c9d8db1656e4bddfca57b4e1bd482bb7b14c919"
   },
   "Uni-Grad - Appendix.pptx": {
     "bytes": 667202,
@@ -56,12 +56,12 @@
     "sha256": "e693a81d9bb7067a4b2127c5ecd05b8c2dbfe3c3e58c54df03bf9fa1b92a45a2"
   },
   "Review Notes.md": {
-    "bytes": 3658,
-    "sha256": "877c031fc77a64a2e7e8be8cd185809dbdcb3050dbd84aff3541f24bfacd7f6c"
+    "bytes": 3696,
+    "sha256": "c4c46e37660a9bb477897241d1228e497e1972a1eb66da6ca34f0e9d96c4e484"
   },
   "Slide Overview.png": {
-    "bytes": 563120,
-    "sha256": "d5702cebc21233d00c9163a0b34298991fc956b44634a0095274dc0ff864d60b"
+    "bytes": 570433,
+    "sha256": "2df5ed0694f3b8e0466f62b8f3d7cb13f462afd39100c0c009b3599d1898da78"
   },
   "Appendix Overview.png": {
     "bytes": 117862,
@@ -172,8 +172,8 @@
     "sha256": "a2bc01c8a6cd06232916601e2de381a675b247a18bff9a704564067cfe5146e8"
   },
   "Presentation-checks.json": {
-    "bytes": 3530,
-    "sha256": "069c984278aebbd8b32232f7df81956204ad7c42266f42b95e66ba8947ecb72b"
+    "bytes": 3576,
+    "sha256": "dc37e72a328ec3c21e3c79a63fb295e37693860d360df1d51252b884986f3b98"
   },
   "Deck Animation Plan.json": {
     "bytes": 6237,
@@ -181,10 +181,10 @@
   },
   "Deck Animation Checks.json": {
     "bytes": 16364,
-    "sha256": "d215a70be3577597d08d680aa4372ed2a4198ed7f36831e6c24e197bc7d3f8c4"
+    "sha256": "cc937ea56d0ba723d532cb9b3f1a8f3e5754adc567d83c2b07dc3ba19d9e0ceb"
   },
   "Uni-Grad - Editable Source.zip": {
-    "bytes": 5638138,
-    "sha256": "e189f9a555086dbcc9beebc0503aba94ea74625ad76b89e393ca9e1718470a1d"
+    "bytes": 5640065,
+    "sha256": "890a3582c51c93a6c16ab275fbba3f9a0703a8bbe131aa13c556aca33593b951"
   }
 }
