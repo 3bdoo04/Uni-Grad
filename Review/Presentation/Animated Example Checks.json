@@ -1,12 +1,12 @@
 {
   "slide_number": 9,
-  "native_fade_entrances": 5,
-  "on_click_steps": 5,
+  "native_fade_entrances": 6,
+  "on_click_steps": 6,
   "duration_ms": 350,
   "macros": false,
   "automatic_slide_advance": false,
-  "libreoffice_imported_fades": 5,
-  "libreoffice_imported_clicks": 5,
+  "libreoffice_imported_fades": 6,
+  "libreoffice_imported_clicks": 6,
   "preview_note": "MP4/GIF automatically demonstrate the native click-build sequence; PowerPoint uses presenter clicks.",
   "fictional_case": true,
   "prototype_performance_claim": false

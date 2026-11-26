@@ -1,14 +1,14 @@
 {
   "slide_number": 7,
-  "native_fade_entrances": 13,
-  "on_click_steps": 13,
+  "native_fade_entrances": 14,
+  "on_click_steps": 14,
   "duration_ms": 250,
-  "libreoffice_imported_fades": 13,
-  "libreoffice_imported_clicks": 13,
+  "libreoffice_imported_fades": 14,
+  "libreoffice_imported_clicks": 14,
   "macros": false,
   "automatic_slide_advance": false,
   "prototype_is_planned": true,
-  "progressive_state_count": 14,
+  "progressive_state_count": 15,
   "final_pdf_pages": 1,
   "final_png_pixels": [
     2880,
@@ -69,6 +69,10 @@
     {
       "shape_id": 32,
       "name": "Block - receiver"
+    },
+    {
+      "shape_id": 53,
+      "name": "Arrow legend"
     }
   ],
   "preview_note": "MP4/GIF automatically demonstrate the native one-object-at-a-time sequence with short review timings; PowerPoint uses presenter clicks."

@@ -1,0 +1,619 @@
+{
+  "checked_at_utc": "2026-11-26T06:36:46.694245+00:00",
+  "file": "Uni-Grad - Midterm Presentation.pptx",
+  "sha256": "35256f2b9146829af8959d4956412ca938c56fea19eb118ca9eb93295601a17c",
+  "physical_slides": 19,
+  "visible_slides": 18,
+  "whole_entry_slides": [
+    1,
+    18
+  ],
+  "visible_references_slide": 17,
+  "hidden_industrial_standards_slide": 19,
+  "entry_policy": "Slide background, title, green subtitle and slide number appear together. All other logical body elements reveal one per click, except intro and Thank You which appear whole.",
+  "arrow_bidirectionality": [
+    {
+      "id": "caller_text",
+      "source": "voice",
+      "target": "agent1",
+      "kind": "voice",
+      "rgb": "0066CC",
+      "width_points": 4.0,
+      "bidirectional": true,
+      "head_width": "large",
+      "tail_width": "large",
+      "head_length": "short",
+      "tail_length": "short",
+      "schema_head_before_tail": true
+    },
+    {
+      "id": "interview_tasks",
+      "source": "agent1",
+      "target": "controller",
+      "kind": "control",
+      "rgb": "C75000",
+      "width_points": 4.0,
+      "bidirectional": true,
+      "head_width": "large",
+      "tail_width": "large",
+      "head_length": "short",
+      "tail_length": "short",
+      "schema_head_before_tail": true
+    },
+    {
+      "id": "medical_tasks",
+      "source": "controller",
+      "target": "agent2",
+      "kind": "control",
+      "rgb": "C75000",
+      "width_points": 4.0,
+      "bidirectional": true,
+      "head_width": "large",
+      "tail_width": "large",
+      "head_length": "short",
+      "tail_length": "short",
+      "schema_head_before_tail": true
+    },
+    {
+      "id": "coordination_tasks",
+      "source": "controller",
+      "target": "agent3",
+      "kind": "control",
+      "rgb": "C75000",
+      "width_points": 4.0,
+      "bidirectional": true,
+      "head_width": "large",
+      "tail_width": "large",
+      "head_length": "short",
+      "tail_length": "short",
+      "schema_head_before_tail": true
+    },
+    {
+      "id": "review_messages",
+      "source": "controller",
+      "target": "reviewer",
+      "kind": "hospital",
+      "rgb": "00843D",
+      "width_points": 4.0,
+      "bidirectional": true,
+      "head_width": "large",
+      "tail_width": "large",
+      "head_length": "short",
+      "tail_length": "short",
+      "schema_head_before_tail": true
+    },
+    {
+      "id": "dispatch_messages",
+      "source": "controller",
+      "target": "receiver",
+      "kind": "hospital",
+      "rgb": "00843D",
+      "width_points": 4.0,
+      "bidirectional": true,
+      "head_width": "large",
+      "tail_width": "large",
+      "head_length": "short",
+      "tail_length": "short",
+      "schema_head_before_tail": true
+    }
+  ],
+  "legend_matches_arrow_colours": true,
+  "all_agent_controller_arrows_bidirectional": true,
+  "caller_agent1_arrow_bidirectional": true,
+  "arrow_colours": {
+    "voice": "0066CC",
+    "control": "C75000",
+    "hospital": "00843D"
+  },
+  "all_slides_independently_imported": true,
+  "fully_validated": true,
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Agentic Emergency Tele-Triage & Autonomous Medical Dispatch System",
+      "visible_in_normal_show": true,
+      "entry": "whole slide at once",
+      "native_clicks": 0,
+      "native_fades": 0,
+      "chrome_shape_ids": [],
+      "ordered_body_shape_ids": [],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": false,
+      "libreoffice_imported_fades": 0,
+      "libreoffice_imported_clicks": 0,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 2,
+      "title": "Problem definition",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 5,
+      "native_fades": 5,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        11,
+        7,
+        8,
+        9,
+        10
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 5,
+      "libreoffice_imported_clicks": 5,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 3,
+      "title": "Project aim & objectives",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 5,
+      "native_fades": 5,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 5,
+      "libreoffice_imported_clicks": 5,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 4,
+      "title": "Industrial partner",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 4,
+      "native_fades": 4,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        17,
+        18,
+        7,
+        8
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 4,
+      "libreoffice_imported_clicks": 4,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 5,
+      "title": "Review of literature — DispatchMAS",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 6,
+      "native_fades": 6,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        29,
+        11,
+        15,
+        19,
+        23,
+        27
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 6,
+      "libreoffice_imported_clicks": 6,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 6,
+      "title": "Review of literature — TriAgent",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 6,
+      "native_fades": 6,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        29,
+        11,
+        15,
+        19,
+        23,
+        27
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 6,
+      "libreoffice_imported_clicks": 6,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 7,
+      "title": "Proposed system — block diagram",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 14,
+      "native_fades": 14,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        8,
+        34,
+        12,
+        36,
+        16,
+        38,
+        20,
+        40,
+        24,
+        42,
+        28,
+        44,
+        32,
+        53
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 14,
+      "libreoffice_imported_clicks": 14,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 8,
+      "title": "Proposed system — flowchart",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 16,
+      "native_fades": 16,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        38,
+        13,
+        39,
+        14,
+        40,
+        15,
+        41,
+        46,
+        47,
+        42,
+        29,
+        43,
+        48,
+        44,
+        49,
+        45
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 16,
+      "libreoffice_imported_clicks": 16,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 9,
+      "title": "An example emergency call",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 6,
+      "native_fades": 6,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        15,
+        21,
+        28,
+        35,
+        42,
+        43
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 6,
+      "libreoffice_imported_clicks": 6,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 10,
+      "title": "System specifications",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 4,
+      "native_fades": 4,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 4,
+      "libreoffice_imported_clicks": 4,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 11,
+      "title": "Contributions & uniqueness",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 5,
+      "native_fades": 5,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        18,
+        31,
+        47,
+        60,
+        63
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 5,
+      "libreoffice_imported_clicks": 5,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 12,
+      "title": "Proposed testing procedures",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 7,
+      "native_fades": 7,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        76,
+        18,
+        29,
+        42,
+        54,
+        65,
+        75
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 7,
+      "libreoffice_imported_clicks": 7,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 13,
+      "title": "Cost analysis — estimated test budget",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 8,
+      "native_fades": 8,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 8,
+      "libreoffice_imported_clicks": 8,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 14,
+      "title": "Timetable — responsibilities",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 13,
+      "native_fades": 13,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 13,
+      "libreoffice_imported_clicks": 13,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 15,
+      "title": "Limitations & challenges",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 5,
+      "native_fades": 5,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        32,
+        33,
+        34,
+        35,
+        31
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 5,
+      "libreoffice_imported_clicks": 5,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 16,
+      "title": "Conclusion",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 4,
+      "native_fades": 4,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 4,
+      "libreoffice_imported_clicks": 4,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 17,
+      "title": "References & publication status",
+      "visible_in_normal_show": true,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 3,
+      "native_fades": 3,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        5,
+        6,
+        9
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 3,
+      "libreoffice_imported_clicks": 3,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 18,
+      "title": "Thank you",
+      "visible_in_normal_show": true,
+      "entry": "whole slide at once",
+      "native_clicks": 0,
+      "native_fades": 0,
+      "chrome_shape_ids": [],
+      "ordered_body_shape_ids": [],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": false,
+      "libreoffice_imported_fades": 0,
+      "libreoffice_imported_clicks": 0,
+      "libreoffice_visibility": null,
+      "independent_import_matches_native": true
+    },
+    {
+      "slide": 19,
+      "title": "Industrial standards",
+      "visible_in_normal_show": false,
+      "entry": "background, title, green subtitle and slide number together; body one element per click",
+      "native_clicks": 7,
+      "native_fades": 7,
+      "chrome_shape_ids": [
+        2,
+        3,
+        4
+      ],
+      "ordered_body_shape_ids": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        29
+      ],
+      "native_order_matches_metadata": true,
+      "every_nonchrome_body_shape_targeted_once": true,
+      "libreoffice_imported_fades": 7,
+      "libreoffice_imported_clicks": 7,
+      "libreoffice_visibility": "hidden",
+      "independent_import_matches_native": true
+    }
+  ]
+}

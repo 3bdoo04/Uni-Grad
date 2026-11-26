@@ -1,13 +1,13 @@
 {
   "slide_number": 11,
-  "native_fade_entrances": 4,
-  "on_click_steps": 4,
+  "native_fade_entrances": 5,
+  "on_click_steps": 5,
   "duration_ms": 350,
-  "libreoffice_imported_fades": 4,
-  "libreoffice_imported_clicks": 4,
+  "libreoffice_imported_fades": 5,
+  "libreoffice_imported_clicks": 5,
   "macros": false,
   "automatic_slide_advance": false,
   "claims_are_planned": true,
   "thesis_section": "1.5",
-  "preview_note": "MP4/GIF automatically demonstrate the four presenter-controlled clicks."
+  "preview_note": "MP4/GIF automatically demonstrate the 5 presenter-controlled clicks."
 }

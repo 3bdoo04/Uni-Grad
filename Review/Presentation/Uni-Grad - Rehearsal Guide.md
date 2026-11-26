@@ -1,7 +1,7 @@
 # Midterm rehearsal guide
 
 Prepared narrative: **12:45**. Reserved Q&A: **2:15**. Total plan: **15:00**.
-Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–17; separate appendix slides 1–4.
+Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Visible slides 1–18; hidden Industrial standards slide 19; separate appendix slides 1–4.
 
 | Slide | Topic | Suggested speaker | Window |
 |---|---|---|---|
@@ -20,8 +20,11 @@ Suggested speaking split: Omar 6:15; Abdelrahman 6:30. Main slides 1–17; separ
 | 13 | Cost estimate | Abdelrahman | 09:40–10:25 |
 | 14 | Timetable | Abdelrahman | 10:25–11:25 |
 | 15 | Challenges | Omar | 11:25–12:10 |
-| 16 | Conclusion | Omar | 12:10–12:45 |
-| 17 | Questions | Both | 12:45–15:00 |
+| 16 | Conclusion | Omar | 12:10–12:35 |
+| 17 | References | Omar | 12:35–12:45 |
+| 18 | Questions | Both | 12:45–15:00 |
+
+On entry, the background, title, green subtitle and page number appear together. Remaining body units reveal one at a time; the cover and Thank you slide appear whole. Diagram: 13 core clicks plus legend; call example: 5 stages plus summary; contributions: 4 cards plus summary; testing: headings plus 6 rows. Native cost-table rows reveal individually. References slide 17 receives 10 seconds; Thank you slide 18 begins Q&A at 12:45. Hidden standards slide 19 is skipped in normal playback.
 
 ## Objective pairing
 
@@ -81,7 +84,7 @@ Transition: Our narrower design uses three language-model roles and a Python con
 
 Start with the caller and speech tools. They convert audio to text and reply text back to speech. Click the arrow, then Agent 1: it collects symptoms and addresses, asks questions and retains corrections. The next arrow leads to ordinary Python software, which stores the case, runs agents when facts change and rejects outdated results. Its lower branches are separate tasks, not an agent chain. Agent 2 suggests urgency using reviewed first aid. Agent 3 confirms location and recommends a simulated ambulance using travel time, availability and equipment, then writes the report. The reviewer approves, corrects or takes over. Only approved requests reach the software receiver, which stores and confirms delivery. The controller retries at most three times with the same ID and alerts the reviewer if confirmation is missing.
 
-Delivery cue: Use 13 clicks: block, arrow, next block. After the controller, reveal each branch arrow before its destination block. The legend explains navy transcript/reply text, gray dashed agent work/results and green hospital messages. Speak through the diagram within the existing 70-second slot.
+Delivery cue: Reveal each block, then its arrow, then the next block. After the controller, each branch arrow precedes its destination. The arrow legend appears after the core diagram. Blue carries transcript/reply text; dashed orange carries agent inputs and results; green carries review and delivery messages. Both arrowheads show two-way exchange. Stay within 70 seconds.
 
 Transition: The flowchart shows the approval and delivery decisions in more detail.
 
@@ -157,9 +160,17 @@ Delivery cue: Return to the opening purpose. Stop the prepared narrative at or b
 
 Transition: Questions and discussion.
 
-### 17. Thank you
+### 17. References & publication status
 
-This slide starts the question period. The planned talk ends at 12:45, leaving 2:15 inside the 15-minute maximum. Keep answers focused and open the separate appendix only when it helps. If questions are handled separately by the committee, the prepared talk still remains below the limit.
+These are the IEEE references for the two studies discussed. The thesis contains the full research bibliography. Neither study is a publication by our project team.
+
+Delivery cue: Show both sources briefly, then advance to Thank You. Do not read the complete entries aloud.
+
+Transition:
+
+### 18. Thank you
+
+This slide starts the question period. The prepared talk ends at 12:45, leaving 2:15 within the 15-minute maximum. Show hidden Industrial Standards or open the separate appendix only when relevant.
 
 Delivery cue: Listen fully. Let the presenter responsible for a topic answer first, then add only missing information. State uncertainty honestly.
 
